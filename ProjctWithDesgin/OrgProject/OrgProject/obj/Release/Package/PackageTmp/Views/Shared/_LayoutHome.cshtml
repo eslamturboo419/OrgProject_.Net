@@ -1,0 +1,629 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>  @ViewBag.Title   </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    @Scripts.Render("~/bundles/modernizr")
+
+
+    <link href="" rel="stylesheet" />
+
+
+    @*<link href="~/Content/vendorForLogin/fonts/font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet" />*@
+    @*<link href="~/Content/font-awesome.min.css" rel="stylesheet" />*@
+    @*<link href="~/Content/VendorForAdminPage/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" />*@
+    @*<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+        <script src="~/Scripts/MyScript/custom.js"></script>
+        <script src="~/Scripts/MyScript/owl.carousel.js"></script>
+        <script src="~/Scripts/MyScript/ScrollMagic.min.js"></script>
+        <script src="~/Scripts/bootstrap.min.js"></script>*@
+ 
+
+    @Styles.Render("~/Content/MycssLayout2")
+
+    <style>
+        /*navbar*/
+        /*body {
+            overflow-x: hidden;
+        }*/
+
+        body {
+            background-color: #eee;
+        }
+
+        .header {
+            height: 65px;
+            padding: 14px;
+        }
+
+        /*.hero_slide_container {
+            width: 100%;
+            height: 50vh;
+        }*/
+        /**dropdown**/
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+
+
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+
+        .dropdown-submenue-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-submenu {
+            position: relative;
+        }
+
+            .dropdown-submenu .dropdown-menu {
+                top: 0;
+                left: 100%;
+                margin-top: -1px;
+            }
+
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown-submenu:hover .dropdown-menu {
+            display: block;
+        }
+
+        .text-primary {
+            color: #FFB606 !important;
+            padding: 10px;
+            font-size: 50px;
+            font-weight: 900;
+        }
+        /*end of navbar*/
+        /*footer*/
+        #mu-footer a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+            #mu-footer a:hover
+            #mu-footer {
+                display: inline;
+                float: left;
+                width: 100%;
+            }
+
+        #mu-footer .mu-footer-top {
+            background-color: #333;
+            display: inline;
+            float: left;
+            padding: 50px 0;
+            width: 100%;
+        }
+
+            #mu-footer .mu-footer-top .mu-footer-top-area {
+                display: inline;
+                float: left;
+                width: 100%;
+            }
+
+                #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget {
+                    display: inline;
+                    float: left;
+                    width: 100%;
+                }
+
+
+                    #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget h4 {
+                        color: #fff;
+                        margin-bottom: 15px;
+                        text-transform: uppercase;
+                    }
+
+                    #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget ul li a {
+                        color: #f9f9f9;
+                        display: inline-block;
+                        font-size: 14px;
+                        font-weight: normal;
+                        padding: 5px 0 5px 15px;
+                        position: relative;
+                        text-transform: capitalize;
+                        -webkit-transition: all 0.5s;
+                        -moz-transition: all 0.5s;
+                        -ms-transition: all 0.5s;
+                        -o-transition: all 0.5s;
+                        transition: all 0.5s;
+                    }
+
+                        #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget ul li a:before {
+                            content: "\f101";
+                            font-family: FontAwesome;
+                            left: 0;
+                            position: absolute;
+                            top: 5px;
+                        }
+
+                        #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget ul li a:hover, #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget ul li a:focus {
+                            margin-left: 5px;
+                            text-decoration: none;
+                            color: #ffb606;
+                        }
+
+                    #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget p {
+                        color: #f9f9f9;
+                    }
+
+                    #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget .mu-subscribe-form {
+                        display: inline;
+                        float: left;
+                        margin-top: 10px;
+                        width: 100%;
+                    }
+
+                        #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget .mu-subscribe-form input[type="email"] {
+                            border: 1px solid #ccc;
+                            border-radius: 4px;
+                            color: #000;
+                            font-size: 15px;
+                            height: 35px;
+                            margin-bottom: 20px;
+                            padding: 5px;
+                            width: 100%;
+                            -webkit-transition: all 0.5s;
+                            -moz-transition: all 0.5s;
+                            -ms-transition: all 0.5s;
+                            -o-transition: all 0.5s;
+                            transition: all 0.5s;
+                        }
+
+                        #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget .mu-subscribe-form .mu-subscribe-btn {
+                            color: #fff;
+                            border: medium none;
+                            border-radius: 4px;
+                            font-size: 14px;
+                            letter-spacing: 0.5px;
+                            padding: 5px 10px;
+                            background-color: #ffb606;
+                        }
+
+                    #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget address p {
+                        font-weight: lighter;
+                        letter-spacing: 0.5px;
+                    }
+
+        #mu-footer .mu-footer-bottom {
+            background-color: #222;
+            display: inline;
+            float: left;
+            padding: 5px 0;
+            width: 100%;
+        }
+
+            #mu-footer .mu-footer-bottom .mu-footer-bottom-area {
+                display: inline;
+                float: left;
+                text-align: center;
+                width: 100%;
+            }
+
+                #mu-footer .mu-footer-bottom .mu-footer-bottom-area p {
+                    color: #fff;
+                    margin-bottom: 0;
+                    letter-spacing: 0.3px;
+                }
+
+        #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget p a:hover {
+            color: #ffb606;
+        }
+
+  
+     
+
+    </style>
+
+</head>
+<body>
+    <!--navbar-->
+    <div class="super_container  ">
+
+        <!-- Header -->
+        <!-- Header -->
+        <header class="header d-flex flex-row">
+            <div class="header_content d-flex flex-row align-items-center" style="position:static;">
+                <!-- Logo -->
+                <div class="logo_container">
+                    <div class="logo">
+                        <img src="~/Content/MyStyle/MyImageStyle/logo.png" />
+                        <span>fci-zag</span>
+                    </div>
+                </div>
+
+                <!-- Main Navigation -->
+                <nav class="main_nav_container">
+                    <div class="main_nav">
+                        <ul class="main_nav_list">
+                            @*<li class="main_nav_item"><a href="#">home</a></li>
+        <li class="main_nav_item"><a href="#">about us</a></li>
+        <li class="main_nav_item"><a href="courses.html">courses</a></li>
+        <li class="main_nav_item"><a href="elements.html">elements</a></li>
+        <li class="main_nav_item"><a href="news.html">news</a></li>
+        <li class="main_nav_item"><a href="contact.html">contact</a></li>*@
+
+                            <li class="main_nav_item">  @Html.ActionLink("Projects", "Index", "Home")  </li>
+                            <li class="main_nav_item">  @Html.ActionLink("Master", "ViewMaster", "Home")  </li>
+                            <li class="main_nav_item">
+
+                                <ul class="dropdown">
+                                    <a class="dropdown-toggle" data-toggle="dropdown" href="#"> Courses <span class="caret"></span></a>
+                                    <ul class="dropdown-content">
+                                        <li class="dropdown-submenu">
+                                            <a class="dropdown-toggle" data-toggle="dropdown" onclick='document.location ="@Url.Action("ViewCourceWithYear","Home", new { year = 1 } )"' href="#">Year1  </a>
+                                        </li>
+                                        <li class="dropdown-submenu">
+                                            <a class="dropdown-toggle" data-toggle="dropdown" onclick='document.location ="@Url.Action("ViewCourceWithYear","Home", new { year = 2 } )"' href="#">Year2  </a>
+                                        </li>
+                                        <li class="dropdown-submenu">
+                                            <a class="dropdown-toggle" data-toggle="dropdown" onclick='document.location ="@Url.Action("ViewCourceWithYear","Home", new { year = 3 } )"' href="#">Year3  </a>
+                                        </li>
+
+                                        @*<li class="dropdown-submenu">
+                        <a class="dropdown-toggle" data-toggle="dropdown" onclick='document.location ="@Url.Action("ViewCourceWithYear","Home", new { year = 4 } )"' href="#">Year4  </a>
+                    </li>*@
+
+
+                                        <li class="dropdown-submenu">
+                                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Year4 <span class="caret"></span></a>
+
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a class="dropdown-toggle" data-toggle="dropdown"
+                                                       onclick='document.location ="@Url.Action("ViewCourceWithYear","Home", new { year = 4  ,dep="IT"} )"' href="#">IT</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-toggle" data-toggle="dropdown"
+                                                       onclick='document.location ="@Url.Action("ViewCourceWithYear","Home", new { year = 4  ,dep="Cs"} )"' href="#">Cs</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-toggle" data-toggle="dropdown"
+                                                       onclick='document.location ="@Url.Action("ViewCourceWithYear","Home", new { year = 4  ,dep="Is"} )"' href="#">Is</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-toggle" data-toggle="dropdown"
+                                                       onclick='document.location ="@Url.Action("ViewCourceWithYear","Home", new { year = 4  ,dep="Ds"} )"' href="#">Ds</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+
+
+
+                                    </ul>
+                                </ul>
+                            </li>
+                            <li class="main_nav_item">  @Html.ActionLink("Contact us", "Index", "SendDataTOGmail")  </li>
+
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                                if (User.IsInRole("Admin"))
+                                {
+                                    <li class="main_nav_item">  @Html.ActionLink("Dash", "Dash", "AdminFinalProject")  </li>
+                                }
+                                if (User.IsInRole("Leader"))
+                                {
+                                    @*<li class="main_nav_item">  @Html.ActionLink("Profile", "ViewProfile", "Profile", new { Email = User.Identity.Name }, new { @class = "" })  </li>*@
+
+                                    <li class="main_nav_item">
+
+                                        <ul class="dropdown">
+                                            <a class="dropdown-toggle" data-toggle="dropdown" href="#"> Profile <span class="caret"></span></a>
+                                            <ul class="dropdown-content">
+
+                                                <li class="dropdown-submenu">
+                                                    <a class="dropdown-toggle" data-toggle="dropdown" onclick='document.location ="@Url.Action("Index","ChatRoom")"' href="#">ChatRoom  </a>
+                                                </li>
+                                                <li class="dropdown-submenu">
+                                                    <a class="dropdown-toggle" data-toggle="dropdown" onclick='document.location ="@Url.Action("ViewProfile","Profile", new { Email = User.Identity.Name } )"' href="#">View Profile  </a>
+                                                </li>
+                                                <li class="dropdown-submenu">
+
+                                                    <a class="dropdown-toggle" data-toggle="dropdown" onclick='document.location ="@Url.Action("Submit","Teams" )"' href="#">Submit To Doctor  </a>
+                                                </li>
+                                                <li class="dropdown-submenu">
+                                                    <a class="dropdown-toggle" data-toggle="dropdown" onclick='document.location ="@Url.Action("sumitFinal","Teams")"' href="#">Submit Project  </a>
+                                                </li>
+                                                <li class="dropdown-submenu">
+                                                    <a class="dropdown-toggle" data-toggle="dropdown" onclick='document.location ="@Url.Action("logOut","Account")"' href="#">logOut  </a>
+                                                </li>
+
+
+                                            </ul>
+                                        </ul>
+                                    </li>
+
+
+
+                                }
+                                if (User.IsInRole("Doctor"))
+                                {
+                                    @*<li class="main_nav_item">  @Html.ActionLink("Profile", "ViewProfile", "Profile", new { Email = User.Identity.Name }, new { @class = "" })  </li>*@
+
+                                    <li class="main_nav_item">
+
+                                        <ul class="dropdown">
+                                            <a class="dropdown-toggle" data-toggle="dropdown" href="#"> Profile <span class="caret"></span></a>
+                                            <ul class="dropdown-content">
+
+                                                <li class="dropdown-submenu">
+                                                    <a class="dropdown-toggle" data-toggle="dropdown" onclick='document.location ="@Url.Action("Index","ChatRoom")"' href="#">ChatRoom  </a>
+                                                </li>
+                                                <li class="dropdown-submenu">
+                                                    <a class="dropdown-toggle" data-toggle="dropdown" onclick='document.location ="@Url.Action("ViewProfile","Profile", new { Email = User.Identity.Name } )"' href="#">View Profile  </a>
+                                                </li>
+                                                <li class="dropdown-submenu">
+
+                                                    <a class="dropdown-toggle" data-toggle="dropdown" onclick='document.location ="@Url.Action("Index","Doctors" )"' href="#">Submit Project  </a>
+                                                </li>
+                                                <li class="dropdown-submenu">
+                                                    <a class="dropdown-toggle" data-toggle="dropdown" onclick='document.location ="@Url.Action("logOut","Account")"' href="#">logOut  </a>
+                                                </li>
+
+
+
+                                            </ul>
+                                        </ul>
+                                    </li>
+
+
+
+                                }
+
+                            }
+                            else
+                            {
+
+                                <li class="main_nav_item">  @Html.ActionLink("login", "login", "Account")  </li>
+                            }
+
+
+
+
+
+                        </ul>
+</div>
+                </nav>
+            </div>
+
+
+            <!-- Hamburger -->
+            <div class="hamburger_container">
+                <i class="fas fa-bars trans_200"></i>
+            </div>
+
+        </header>
+        <!-- Menu -->
+        <div class="menu_container menu_mm">
+
+            <!-- Menu Close Button -->
+            <div class="menu_close_container">
+                <div class="menu_close"></div>
+            </div>
+
+            <!-- Menu Items -->
+            <div class="menu_inner menu_mm">
+                <div class="menu menu_mm">
+                    <ul class="menu_list menu_mm">
+                        <li class="menu_item menu_mm"> @Html.ActionLink("Projects", "Index", "Home")  </li>
+                        <li class="menu_item menu_mm"> @Html.ActionLink("Master", "ViewMaster", "Home")  </li>
+                        <li class="menu_item menu_mm">  @Html.ActionLink("Contact us", "Index", "SendDataTOGmail") </li>
+
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            if (User.IsInRole("Admin"))
+                            {
+                                <li class="menu_item menu_mm">   @Html.ActionLink("Dash", "Dash", "AdminFinalProject") </li>
+
+                            }
+                            if (User.IsInRole("Leader"))
+                            {
+                                <li class="menu_item menu_mm">  @Html.ActionLink("Profile", "ViewProfile", "Profile", new { Email = User.Identity.Name } ,new { @class=""})  </li>
+                                <li class="menu_item menu_mm">  @Html.ActionLink("Chat", "Index", "ChatRoom")  </li>
+                                <li class="menu_item menu_mm">  @Html.ActionLink("Submit To Doctor", "Submit", "Teams")  </li>
+                                <li class="menu_item menu_mm">  @Html.ActionLink("Submit Project", "sumitFinal", "Teams")  </li>
+                                <li class="menu_item menu_mm">  @Html.ActionLink("logOut", "logOut", "Account")  </li>
+
+
+                            }
+                            if (User.IsInRole("Doctor"))
+                            {
+                                <li class="menu_item menu_mm">  @Html.ActionLink("Profile", "ViewProfile", "Profile", new { Email = User.Identity.Name }, new { @class = "" })  </li>
+                                <li class="menu_item menu_mm">  @Html.ActionLink("Chat", "Index", "ChatRoom")  </li>
+                                <li class="menu_item menu_mm">  @Html.ActionLink("Submit Project", "Index", "Doctors")  </li>
+                                <li class="menu_item menu_mm">  @Html.ActionLink("logOut", "logOut", "Account")  </li>
+
+                            }
+
+                        }
+                        else
+                        {
+
+                            <li class="menu_item menu_mm">  @Html.ActionLink("login", "login", "Account")  </li>
+                        }
+
+
+
+
+                        <li class="menu_item menu_mm">   <a class="dropdown-toggle" style="font-size:15px;color: #634141;" data-toggle="dropdown" onclick='document.location ="@Url.Action("ViewCourceWithYear","Home", new { year = 1 } )"' href="#">Year 1  </a></li>
+                        <li class="menu_item menu_mm">   <a class="dropdown-toggle" style="font-size:15px;color: #634141;" data-toggle="dropdown" onclick='document.location ="@Url.Action("ViewCourceWithYear","Home", new { year = 2 } )"' href="#">Year 2  </a></li>
+                        <li class="menu_item menu_mm">   <a class="dropdown-toggle" style="font-size:15px;color: #634141;" data-toggle="dropdown" onclick='document.location ="@Url.Action("ViewCourceWithYear","Home", new { year = 3 } )"' href="#">Year 3  </a></li>
+                        <li class="menu_item menu_mm">
+                            <a class="dropdown-toggle" style="font-size:15px;color: #634141;" data-toggle="dropdown"
+                               onclick='document.location ="@Url.Action("ViewCourceWithYear","Home", new { year = 4  ,dep="It"} )"' href="#">It</a>
+                        </li>
+
+                        <li class="menu_item menu_mm">
+                            <a class="dropdown-toggle" style="font-size:15px;color: #634141;" data-toggle="dropdown"
+                               onclick='document.location ="@Url.Action("ViewCourceWithYear","Home", new { year = 4  ,dep="Cs"} )"' href="#">Cs</a>
+                        </li>
+
+
+                        <li class="menu_item menu_mm">
+                            <a class="dropdown-toggle" style="font-size:15px;color: #634141;" data-toggle="dropdown"
+                               onclick='document.location ="@Url.Action("ViewCourceWithYear","Home", new { year = 4  ,dep="Is"} )"' href="#">Is</a>
+                        </li>
+
+                        <li class="menu_item menu_mm">
+                            <a class="dropdown-toggle" style="font-size:15px;color: #634141;" data-toggle="dropdown"
+                               onclick='document.location ="@Url.Action("ViewCourceWithYear","Home", new { year = 4  ,dep="Ds"} )"' href="#">Ds</a>
+                        </li>
+
+                    </ul>
+
+
+
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+
+        <!--  End Header -->
+        <!-- Home -->
+        <div class="home" style="background-image:url(../../Content/MyStyle/MyImageStyle/teachers_background.jpg);max-height: 150px;">
+        </div>
+
+    </div>
+
+
+    <div class="super_container">
+
+
+        @RenderBody()
+
+
+    </div>
+
+
+
+    <!--footer-->
+    <!-- Start footer -->
+    <footer id="mu-footer">
+        <!-- start footer top -->
+        @*<div class="mu-footer-top">
+                <div class="container  ">
+                    <div class="mu-footer-top-area">
+                        <div class="row">
+
+                            <div class="col-md-4 col-xs-4">
+                                <div class="mu-footer-widget">
+                                    <h4>features</h4>
+                                    <ul>
+                                        <li><a href="#">home</a></li>
+                                        <li><a href="#">master</a></li>
+                                        <li><a href="#">projectes</a></li>
+                                        <li><a href="#">about us</a></li>
+                                        <li><a href="#">contacts</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-xs-4">
+                                <div class="mu-footer-widget">
+                                    <h4>Student Help</h4>
+                                    <ul>
+                                        <li><a href="#">our projects</a></li>
+                                        <li><a href="#">services</a></li>
+                                        <li><a href="#">mail of students</a></li>
+                                        <li><a href="#">mail of masters</a></li>
+                                        <li><a href="#">fci News</a></li>
+                                        <li><a href="#">Ecole</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-xs-4">
+                                <div class="mu-footer-widget">
+                                    <h4>Contact</h4>
+                                    <address>
+                                        <p>fci-zu-Lshrqya</p>
+                                        <p>Phone: (415) 453-1568 </p>
+                                        <p>Website: www.fci-zu </p>
+                                        <p>Email: <a href="#"> mail@yahoo.com</a> </p>
+                                    </address>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>*@
+        <!-- end footer top -->
+        <!-- start footer bottom -->
+        <div class="mu-footer-bottom">
+            <div class="container">
+                <div class="mu-footer-bottom-area">
+                    <p>  GOOOOD   <a href="#"></a></p>
+                </div>
+            </div>
+        </div>
+        <!-- end footer bottom -->
+    </footer>
+
+
+    <!-- loading -->
+    <div class="loa">
+
+        <div class="sk-fading-circle">
+            <div class="sk-circle1 sk-circle"></div>
+            <div class="sk-circle2 sk-circle"></div>
+            <div class="sk-circle3 sk-circle"></div>
+            <div class="sk-circle4 sk-circle"></div>
+            <div class="sk-circle5 sk-circle"></div>
+            <div class="sk-circle6 sk-circle"></div>
+            <div class="sk-circle7 sk-circle"></div>
+            <div class="sk-circle8 sk-circle"></div>
+            <div class="sk-circle9 sk-circle"></div>
+            <div class="sk-circle10 sk-circle"></div>
+            <div class="sk-circle11 sk-circle"></div>
+            <div class="sk-circle12 sk-circle"></div>
+        </div>
+
+    </div>
+
+    <script>
+        window.onload = function () {
+            $(".loa .sk-fading-circle").fadeOut(300, function () {
+                $("body").css({ overflow: "auto" });
+                $(".loa .sk-fading-circle").parent().fadeOut(1500);
+
+
+                //console.log("form layout");
+            });
+        };
+    </script>
+
+
+    @Scripts.Render("~/myScript/jsfileLayout2")
+    @Scripts.Render("~/bundles/jqueryval")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

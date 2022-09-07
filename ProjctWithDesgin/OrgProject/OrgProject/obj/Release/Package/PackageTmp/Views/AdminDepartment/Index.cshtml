@@ -1,0 +1,172 @@
+﻿@model IEnumerable<OrgProject.Models.Departement_Name>
+
+@{
+    /**/
+
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<style>
+    .au-btn {
+        margin: 30px 0 30px 10px;
+    }
+
+        .au-btn a {
+            color: #fff;
+        }
+
+            .au-btn a:hover {
+                color: #000;
+            }
+
+    .block-email {
+        line-height: 30px;
+        font-size: 25px;
+        text-transform: uppercase;
+        padding: 4px 17px;
+    }
+    .table-data2.table thead th {
+        font-size: 15px;
+    }
+</style>
+<h2 style="margin-top:25px;"> Mangment Departments  </h2>
+
+<button class="au-btn au-btn-icon au-btn--green au-btn--small">
+    <i class="zmdi zmdi-plus"></i>   @Html.ActionLink("New Department", "Create")
+</button>
+
+<div class="row">
+    <div class="col-md-12">
+
+
+        <div class="table-responsive table-responsive-data2">
+            <table class="table table-data2">
+                <thead>
+                    <tr>
+
+                        <th>Name </th>
+                  
+                        
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr class="tr-shadow" id="row_@item.Id">
+
+                            <td>
+                                <span class="block-email">
+                                    @if (item.Name != null)
+                                    {
+                                        @Html.ActionLink(item.Name, "Edit", new { id = item.Id }, new { @class = "text-success" })
+
+                                    }
+                                </span>
+                            </td>
+                            <td>
+                                <div class="table-data-feature">
+
+                                    @*<button  class="item" data-toggle="tooltip" data-placement="top" title="Edit">
+                                            <i class="zmdi zmdi-edit"></i>
+                                        </button>*@
+
+                                    <button onclick="ConfirmDelete(@item.Id)" class="item" data-toggle="tooltip" data-placement="top" title="Delete">
+                                        <i class="zmdi zmdi-delete"></i>
+                                    </button>
+                              
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="spacer"></tr>
+
+                    }
+
+
+
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+
+            <div class="modal-header">
+                
+                <h3 class="modal-title"> Delete   </h3>
+            </div>
+
+            <div class="modal-body">
+                <h4>Are you sure ? You want to delete This. </h4>
+            </div>
+
+            <div class="modal-footer">
+                <a href="#" class="btn btn-default" data-dismiss="modal">Cancel</a>
+                <a href="#" class="btn btn-success" onclick="DeleteDepartments()">Confirm</a>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<input type="hidden" id="hiddenDepartmentId" />
+
+<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+<script>
+
+ function nnn() {
+    var successMessage = '@TempData["sucessMsg"]'
+    if (successMessage != '') {
+        alertify.success(successMessage);
+    }
+    }
+
+
+    $(document).ready(function () {
+        nnn();
+
+    });
+
+
+
+    function ConfirmDelete(EmployeeId) {
+        if (EmployeeId != null) {
+            $("#hiddenDepartmentId").val(EmployeeId);
+            $("#myModal").modal('show');
+        }
+    }
+
+     function DeleteDepartments() {
+
+         var DepId = $("#hiddenDepartmentId").val();
+         if (DepId != null) {
+             $.ajax({
+
+                 type: "POST",
+                 url: "/AdminDepartment/DeleteDepartment",
+                 data: { DepID: DepId },
+                 success: function (result) {
+                     $("#loaderDiv").hide();
+                     $("#myModal").modal("hide");
+                     $("#row_" + DepId).remove();
+                     alertify.success("Delete Ok");
+
+                 }
+             })
+         }
+
+
+    }
+</script>
+
+

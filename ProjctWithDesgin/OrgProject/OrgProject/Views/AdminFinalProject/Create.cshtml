@@ -1,0 +1,211 @@
+﻿@model OrgProject.Models.FinalProject
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+
+<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+<script>
+     $(document).ready(function () {
+         Here();
+         Here2();
+    });
+
+
+     function Here() {
+         $("#normalDropDown").chosen({
+             disable_search_threshold: 3
+         });
+    };
+    function Here2() {
+        $("#normalDropDown2").chosen({
+            disable_search_threshold: 3
+        });
+    }
+
+
+</script>
+
+
+
+
+<h2> Create New Project </h2>
+
+
+@using (Html.BeginForm("Create", "AdminFinalProject", FormMethod.Post,
+                            new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+
+        <hr />
+        @Html.ValidationSummary(false, "", new { @class = "text-danger" })
+
+
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.NameOfProject, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.NameOfProject, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.NameOfProject, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.LeaderName, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.LeaderName, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.LeaderName, "", new { @class = "text-danger" })
+
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.NmaesOfTeam, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.NmaesOfTeam, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.NmaesOfTeam, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Descrpition, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextAreaFor(model => model.Descrpition, htmlAttributes: new { @class = "form-control input-lg", @style = "height: 200px" })
+                @Html.ValidationMessageFor(model => model.Descrpition, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.TitleOfProject, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.TitleOfProject, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.TitleOfProject, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.SourceCode, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.SourceCode, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.SourceCode, "", new { @class = "text-danger" })
+
+            </div>
+        </div>
+
+
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Dep_id, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-4">
+                @Html.DropDownList("Dep_id", null, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Dep_id, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Doc_id, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-4">
+                @Html.DropDownList("Doc_id", null, htmlAttributes: new { @class = "form-control", id = "normalDropDown" })
+                @Html.ValidationMessageFor(model => model.Doc_id, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.TeachAss_id, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-4">
+                @Html.DropDownList("TeachAss_id", null, htmlAttributes: new { @class = "form-control", id = "normalDropDown2" })
+                @Html.ValidationMessageFor(model => model.TeachAss_id, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.PdfFile, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-4">
+                @Html.TextBoxFor(m => m.PdfFile, new { type = "file", id = "file", @class = "form-control" })
+                @*@Html.ValidationMessageFor(model => model.PdfFile, "", new { @class = "text-danger" })*@
+
+                @Html.ValidationMessage("PDFError", "", new { @class = "text-danger" })
+
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ImageProject, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-4">
+
+                @Html.TextBoxFor(m => m.ImageProject, new { type = "file", id = "file2", @class = "form-control" })
+                @*@Html.ValidationMessageFor(model => model.ImageProject, "", new { @class = "text-danger" })*@
+                @Html.ValidationMessage("ImageError", "", new { @class = "text-danger" })
+
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.VideoUpload, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-4">
+                @Html.TextBoxFor(m => m.VideoUpload, new { type = "file", id = "file3", @class = "form-control" })
+                @*@Html.ValidationMessageFor(model => model.VideoUpload, "", new { @class = "text-danger" })*@
+                @Html.ValidationMessage("VideoError", "", new { @class = "text-danger" })
+
+            </div>
+        </div>
+
+
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.IsActive, "Is Active", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-4">
+
+
+                @Html.DropDownListFor(model => model.IsActive,
+           new SelectList(new[] { new { Value = "True", Text = "Yes"  },
+    new { Value = "False", Text = "No" },
+           }, "Value", "Text", Model
+           ), htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.IsActive, "", new { @class = "text-danger" })
+
+
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.YearOfTheProject, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-4">
+                <select name="YearOfTheProject" id="YearOfTheProject" class="form-control">
+                    <option> ------  </option>
+                    @for (int i = DateTime.Now.Year; i >= 2010; i--)
+                    {
+                        <option @( i == DateTime.Now.Year ? "selected" : "") value="@i"> @i </option>
+                    }
+                </select>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+
+

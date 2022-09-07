@@ -1,0 +1,177 @@
+﻿@model OrgProject.Models.FinalProject
+
+@{
+    ViewBag.Title = Model.NameOfProject;
+    Layout = "~/Views/Shared/_LayoutHome.cshtml";
+
+}
+
+<style>
+    .ContentDetails {
+        margin: 40px 0 30px 0;
+    }
+
+    table {
+        padding: 20px !important;
+        height: 100%;
+    }
+
+    th {
+        color: #1B256D;
+    }
+
+    td {
+        color: #142172;
+    }
+</style>
+
+<div class="ContentDetails container">
+
+    <div class="row">
+        <div class="col-md-7">
+            @*<img src="Img/event-details-img.jpg" style="width: 80%;  padding: 10px;" />*@
+
+            @if (Model.ImageProject == null)
+            {
+                <img src="~/PdfImageVideo/images/face finder.png" style="width: 80%;  padding: 10px; max-height: 300px;">
+            }
+            else
+            {
+                <img src="~/PdfImageVideo/images/@Model.ImageProject" style="width: 80%;  padding: 10px; max-height: 300px;" />
+            }
+
+
+
+            <h2> <b style="font-weight: bold; font-size:25px;color:#262696;">Title:</b>   @Html.DisplayFor(model => model.TitleOfProject)</h2>
+            <p class="lead" style="font-size: 15px; color: black; margin: 10px;">
+                <b style="font-weight: bold; font-size:23px;color:#262696;"> Abstract:  </b>
+                <br />  @Html.DisplayFor(model => model.Descrpition)
+            </p>
+
+            @if (Model.PdfFile != null)
+            {
+                @Html.ActionLink("See Pdf", "GetPdf", "JustToSeePDF", new { fileName = Model.PdfFile }, new { target = "_blank", @class = "btn btn-primary" })
+            }
+            @if (Model.SourceCode != null)
+            {
+                <p>  Link Is  <a href="http://@Model.SourceCode" target="_blank">  Source Code</a> </p>
+            }
+
+            @if (Model.VideoUpload != null)
+            {
+                <video controls src="~/PdfImageVideo/VideoFolder/@Model.VideoUpload" type="video/mp4" style="max-width:70%"></video>
+            }
+
+
+        </div>
+
+
+
+
+        <div class="col-md-5">
+            <table class="table table-bordered">
+                <tbody>
+                    <tr>
+                        <th>Name Of Project:</th>
+                        <td>@Model.NameOfProject</td>
+                    </tr>
+                    <tr>
+                        <th>Leader:</th>
+                        <td>@Html.DisplayFor(model => model.LeaderName)</td>
+                    </tr>
+                    <tr>
+                        <th> Team: </th>
+                        @if (Model.NmaesOfTeam == null)
+                            { <td>  </td> }
+                        else
+                            {   <td>@Html.Raw(Model.NmaesOfTeam.Replace(",", "<br/>"))  </td>   }
+
+                        @* @if (Model.NmaesOfTeam != null || string.IsNullOrEmpty(Model.NmaesOfTeam) || string.IsNullOrWhiteSpace(Model.NmaesOfTeam))*@
+
+
+
+
+
+                    </tr>
+                    <tr>
+                        <th>Department:</th>
+                        <td>   @Html.DisplayFor(model => model.Departement_Name.Name)   </td>
+                    </tr>
+                    <tr>
+                        <th>Doctor:</th>
+                        <td> @Html.DisplayFor(model => model.AllUserData1.F_Name)  @Html.DisplayFor(model => model.AllUserData1.L_Name) </td>
+                    </tr>
+                    <tr>
+                        <th>Teach Ass:</th>
+                        <td>  @Html.DisplayFor(model => model.AllUserData.F_Name)  @Html.DisplayFor(model => model.AllUserData.L_Name)  </td>
+                    </tr>
+                    <tr>
+                        <th>Year:</th>
+                        <td> @Html.DisplayFor(model => model.YearOfTheProject)  </td>
+                    </tr>
+
+                </tbody>
+            </table>
+
+
+
+
+
+
+        </div>
+
+    </div>
+
+    <br /><br />
+          <div class="row">
+
+              <div class="col-md-3"></div>
+              <div class="col-md-6" style="background-color: #ECE4E4;padding: 20px;">
+                  @foreach (var item in TempData["commentsFinalProject"] as List<OrgProject.Models.Comment>)
+                  {
+                  <div style="border:1px solid  #17369f; border-radius:10px; padding:4px;margin-bottom:10px;" >
+                      <h2 style="color:black;">   @item.Text </h2>
+
+                      @foreach (var replay in item.Replies)
+                      {
+                      <p style="color:#676d7e;">  @replay.Text  </p>  
+                      }
+                  </div>
+
+                      using (Html.BeginForm("PostReply", "Home", FormMethod.Post))
+                      {
+                          @Html.AntiForgeryToken()
+                          <input type="text" name="Reply" class="form-control input-sm chat-input" style="max-width: 60%;" />
+                          <input type="submit" value="Post Reply" class="btn btn-primary btn-sm"  style="background-color: #E18501; border-color:#E18501; "  />  
+                          <input type="hidden" name="ProjectID" value="@item.Project_Id" />
+                          <input type="hidden" name="CommentID" value="@item.Id" />
+
+                      }
+
+                  }
+                  <br /> <br />
+                  @using (Html.BeginForm("PostComment", "Home", FormMethod.Post))
+                  {
+                      @Html.AntiForgeryToken()
+                      <input class="form-control input-sm chat-input"  type="text" name="CommentText"  />
+                      <input type="submit" value="Post Comment" class="btn btn-primary btn-sm"  style="background-color: #E18501; border-color:#E18501; " />
+                      <input type="hidden" name="ProjectID" value="@Model.id" />
+
+                  }
+
+
+              </div>
+     
+              <div class="col-md-3"></div>
+
+
+
+
+
+
+
+          </div>
+</div>
+
+
+

@@ -1,0 +1,174 @@
+﻿@model IEnumerable<OrgProject.Models.GuideYear>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<style>
+    .au-btn {
+        margin: 30px 0 30px 10px;
+    }
+
+        .au-btn a {
+            color: #fff;
+        }
+
+            .au-btn a:hover {
+                color: #000;
+            }
+
+    .block-email {
+        line-height: 20px;
+        font-size: 12px;
+    }
+</style>
+<h2 style="margin-top:25px;"> Mangment Guide </h2>
+
+<button class="au-btn au-btn-icon au-btn--green au-btn--small">
+    <i class="zmdi zmdi-plus"></i>   @Html.ActionLink("New Guide", "Create")
+</button>
+
+<div class="row">
+    <div class="col-md-12">
+
+
+        <div class="table-responsive table-responsive-data2">
+            <table class="table table-data2">
+                <thead>
+                    <tr>
+
+                        <th>@Html.DisplayNameFor(model => model.HeaderOFYear) </th>
+                        <th> @Html.DisplayNameFor(model => model.Link1)</th>
+                        <th> @Html.DisplayNameFor(model => model.Link2)</th>
+                        <th> @Html.DisplayNameFor(model => model.Link3)</th>
+                        <th> @Html.DisplayNameFor(model => model.Link4)</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr class="tr-shadow" id="row_@item.id">
+
+                            <td>
+                                <span class="block-email">
+                         @Html.DisplayFor(modelItem=>item.HeaderOFYear)
+                                </span>
+                            </td>
+                            <td>  @Html.DisplayFor(modelItem => item.Link1) </td>
+
+                            <td class="desc">@Html.DisplayFor(modelItem => item.Link2)</td>
+
+                            <td>
+                                <span class="status--process">@Html.DisplayFor(modelItem => item.Link3)</span>
+                            </td>
+                            <td> @Html.DisplayFor(modelItem => item.Link4)</td>
+                            <td>
+                                <div class="table-data-feature">
+
+                                    @*<button class="item" data-toggle="tooltip" data-placement="top" title="Edit">
+            <i class="zmdi zmdi-edit"></i>
+        </button>*@
+
+                                    <button onclick="ConfirmDelete(@item.id)" class="item" data-toggle="tooltip" data-placement="top" title="Delete">
+                                        <i class="zmdi zmdi-delete"></i>
+                                    </button>
+                                    <button onclick='document.location =" @Url.Action("Edit", "AdminGuide", new { id = item.id })"'
+                                            class="item" data-toggle="tooltip" data-placement="top" title="Edit">
+                                        <i class="zmdi zmdi-edit"></i>
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="spacer"></tr>
+
+                    }
+
+
+
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                
+                <h3 class="modal-title"> Delete   </h3>
+            </div>
+
+            <div class="modal-body">
+                <h4>Are you sure ? You want to delete this. </h4>
+            </div>
+
+            <div class="modal-footer">
+                <a href="#" class="btn btn-default" data-dismiss="modal">Cancel</a>
+                <a href="#" class="btn btn-success" onclick="DeleteEmployee()">Confirm</a>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<input type="hidden" id="hiddenEmployeeId" />
+
+
+<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+<script>
+
+    function nnn() {
+    var successMessage = '@TempData["sucessMsg"]'
+    if (successMessage != '') {
+        alertify.success(successMessage);
+    }
+    }
+
+
+    $(document).ready(function () {
+        nnn();
+
+    });
+
+
+
+    function ConfirmDelete (EmployeeId) {
+        if (EmployeeId != null) {
+            $("#hiddenEmployeeId").val(EmployeeId);
+            $("#myModal").modal('show');
+
+        }
+
+    }
+
+    function DeleteEmployee () {
+
+        var empId = $("#hiddenEmployeeId").val();
+        if (empId != null) {
+            $.ajax({
+
+                type: "POST",
+                url: "/AdminGuide/DeleteEmployee",
+                data: { EmployeeId: empId },
+                success: function (result) {
+                    $("#loaderDiv").hide();
+                    $("#myModal").modal("hide");
+                    $("#row_" + empId).remove();
+                    alertify.success("Delete Ok");
+                }
+
+            })
+        }
+
+
+    }
+</script>

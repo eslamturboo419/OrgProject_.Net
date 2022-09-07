@@ -1,0 +1,149 @@
+﻿@model OrgProject.Models.LoginVM
+
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login V3</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="~/Content/vendorForLogin/images/favicon.ico" />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/vendorForLogin/bootstrap/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/vendorForLogin/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/vendorForLogin/fonts/iconic/css/material-design-iconic-font.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/vendorForLogin/animate/animate.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/vendorForLogin/css-hamburgers/hamburgers.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/vendorForLogin/animsition/css/animsition.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/vendorForLogin/select2/select2.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/vendorForLogin/daterangepicker/daterangepicker.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/vendorForLogin/css/util.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/vendorForLogin/css/main.css">
+    <!--===============================================================================================-->
+
+    <style>
+        .zmdi-landscape:hover{
+            cursor:pointer;
+        }
+        .nn{
+            font-size:inherit;
+        }
+        .nn:hover {
+            color:inherit;
+          
+        }
+        .rember {
+            color: #302020;
+            font-size: 16px;
+            display: inline-block;
+            margin-left: 11px;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="limiter">
+        <div class="container-login100" style="background-image: url('~/Content/vendorForLogin/images/bg-01.jpg');">
+            <div class="wrap-login100">
+                @using (Html.BeginForm("login", "Account", FormMethod.Post, new { htmlAttributes = new { @class = "login100-form validate-form" } }))
+                {
+                    @Html.AntiForgeryToken()
+
+                    <span class="login100-form-logo" title="Home Page">
+                        <a href="@Url.Action("Index","Home")" class="nn">
+
+                            <i class="zmdi zmdi-landscape"></i>
+                        </a>
+
+                    </span>
+
+                    <span class="login100-form-title p-b-34 p-t-27">
+                        Log in
+                    </span>
+
+                    <div class="wrap-input100 validate-input" data-validate="Enter username">
+                        @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "input100", placeholder = "Username", autocomplete = "off" } })
+                        <span class="focus-input100" data-placeholder="&#xf207;"></span>
+                        @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                    </div>
+
+                    <div class="wrap-input100 validate-input" data-validate="Enter password">
+                        @Html.EditorFor(model => model.Password, new { htmlAttributes = new { @class = "input100", placeholder = "Password", autocomplete = "off" } })
+                        <span class="focus-input100" data-placeholder="&#xf191;"></span>
+                        @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+
+                    </div>
+
+                    <div class="contact100-form-checkbox">
+
+
+                        @Html.CheckBoxFor(model => model.RememberMe, new { @checked = "checked" })
+                        <p class="rember"> Remember me  </p>
+                      
+                    </div>
+
+                    <div class="container-login100-form-btn">
+                        <input type="submit" value="Login" class="login100-form-btn" />
+                    </div>
+
+
+                    if (ViewBag.message != null)
+                    {
+                        <div class="text-center p-t-90">
+                            <div class="txt1" style="color:red; font-size:30px; background-color:black">
+                                @if (ViewBag.message != null)
+                                {
+                                    <div class="alert alert-danger"> @ViewBag.message </div>
+
+                                }
+
+                            </div>
+                        </div>
+                    }
+
+
+
+                }
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <div id="dropDownSelect1"></div>
+
+    <!--===============================================================================================-->
+    <script src="~/Content/vendorForLogin/jquery/jquery-3.2.1.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="~/Content/vendorForLogin/animsition/js/animsition.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="~/Content/vendorForLogin/bootstrap/js/popper.js"></script>
+    <script src="~/Content/vendorForLogin/bootstrap/js/bootstrap.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="~/Content/vendorForLogin/select2/select2.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="~/Content/vendorForLogin/daterangepicker/moment.min.js"></script>
+    <script src="~/Content/vendorForLogin/daterangepicker/daterangepicker.js"></script>
+    <!--===============================================================================================-->
+    <script src="~/Content/vendorForLogin/countdowntime/countdowntime.js"></script>
+    <!--===============================================================================================-->
+    <script src="~/Content/vendorForLogin/js/main.js"></script>
+    <script src="~/Scripts/jquery.validate.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+
+</body>
+</html>

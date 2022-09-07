@@ -1,0 +1,108 @@
+﻿@model OrgProject.Models.FinalMaster
+
+@{
+    ViewBag.Title = "DetailsMaster";
+    Layout = "~/Views/Shared/_LayoutHome.cshtml";
+}
+
+
+<style>
+    .ContentDetails {
+        margin: 40px 0 30px 0;
+    }
+
+    table {
+        padding: 20px !important;
+        height: 100%;
+    }
+
+    th {
+        color: #1B256D;
+    }
+
+    td {
+        color: #142172;
+    }
+</style>
+
+<div class="ContentDetails container">
+
+    <div class="row">
+        <div class="col-md-7">
+            @*<img src="Img/event-details-img.jpg" style="width: 80%;  padding: 10px;" />*@
+
+            @if (Model.ImageProject == null)
+            {
+                <img src="~/PdfImageVideo/images/face finder.png" style="width: 80%;  padding: 10px; max-height: 300px;">
+            }
+            else
+            {
+                <img src="~/PdfImageVideo/images/@Model.ImageProject" style="width: 80%;  padding: 10px; max-height: 300px;" />
+            }
+
+
+
+            <h2> <b style="font-weight: bold; font-size:25px;color:#262696;">Title:</b>   @Html.DisplayFor(model => model.TitleOfMaster)</h2>
+            <p class="lead" style="font-size: 15px; color: black; margin: 10px;">
+                <b style="font-weight: bold; font-size:23px;color:#262696;"> Abstract:  </b>
+                <br />  @Html.DisplayFor(model => model.Descrpition)
+            </p>
+
+            @if (Model.PdfFile != null)
+            {
+                @Html.ActionLink("See Pdf", "GetPdf", "JustToSeePDF", new { fileName = Model.PdfFile }, new { target = "_blank", @class = "btn btn-primary" })
+            }
+     
+ 
+
+        </div>
+
+
+
+
+        <div class="col-md-5">
+            <table class="table table-bordered">
+                <tbody>
+                    <tr>
+                        <th>Name Of Master:</th>
+                        <td>@Model.NameOfMaster</td>
+                    </tr>
+                    <tr>
+                        <td>Name:</td>
+                        <td>@Html.DisplayFor(model => model.Name)</td>
+                    </tr>
+                    <tr>
+                        <th>Doctotrs:</th>
+
+                        <td>
+                            @Html.Raw(Model.DoctorExam.Replace(",", "<br/>"))
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <th>Department:</th>
+                        <td>   @Html.DisplayFor(model => model.Departement_Name.Name)   </td>
+                    </tr>
+                    <tr>
+                        <th>Doctor:</th>
+                        <td> @Html.DisplayFor(model => model.AllUserData.F_Name)   @Html.DisplayFor(model => model.AllUserData.L_Name)</td>
+                    </tr>
+                    <tr>
+                        <th>Year:</th>
+                        <td> @Html.DisplayFor(model => model.YearThisMaster)  </td>
+                    </tr>
+
+                </tbody>
+            </table>
+
+
+
+
+
+
+        </div>
+
+    </div>
+
+
+</div>

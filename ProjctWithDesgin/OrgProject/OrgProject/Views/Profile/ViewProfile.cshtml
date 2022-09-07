@@ -1,0 +1,106 @@
+﻿@model OrgProject.Models.AllUserData
+
+@{
+    ViewBag.Title = "ViewProfile";
+    if (User.IsInRole("Leader") || User.IsInRole("Doctor") )
+    {
+        Layout = "~/Views/Shared/_LayoutHome.cshtml";
+    }
+    else
+    {
+        Layout = "~/Views/Shared/_AdminLayout.cshtml";
+
+    }
+}
+<style>
+    label {
+        display: ruby;
+    }
+    .profile-pic img {
+        width: 50%;
+        height: 25%;
+        border-radius: 50%;
+        margin: 10px 10px 5px 10px;
+    }
+
+    .profile-usertitle {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .profile-usertitle-name {
+        color: #5a7391;
+        font-size: 16px;
+        font-weight: 601;
+        padding-right: 44%;
+    }
+
+    .email {
+        color: #5b9bd1;
+        padding-right: 37%;
+        font-size: 30px;
+        margin-bottom:20px;
+    }
+
+    .department {
+        color: #5a7391;
+        font-size: 16px;
+        font-weight: 600;
+        padding-right: 58%;
+    }
+
+    .profile-userbuttons {
+        padding-right: 50%;
+        text-align: center;
+        margin: 5px;
+    }
+ 
+ 
+</style>
+
+
+
+
+<div class="row">
+    <div class="col-md-3">
+        <div class="profile-sidebar"></div>
+        <div class="profile-pic">
+            <img  src="~/PdfImageVideo/images/NoPic.jpg">
+        </div>
+        <div class="profile-usertitle">
+
+            <div class="profile-usertitle-name">
+                <label>  Name:  @Html.DisplayFor(model => model.F_Name)  @Html.DisplayFor(model => model.L_Name)      </label>
+ 
+
+            </div>
+
+
+            <div class="email">
+                    <label>
+                        Email:  @Html.DisplayTextFor(model => model.Email)
+                    </label>
+                </i>
+
+
+
+            </div>
+
+            <div class="department">
+                <label>DEPARTMENT:  @Html.DisplayFor(model => model.Departement_Name.Name) </label>
+
+
+            </div>
+
+            <div class="profile-userbuttons">
+                <button style="margin-top:20px; margin-bottom:20px;font-size:20px" type="button" class="btn btn-success btn-sm" onclick='document.location =" @Url.Action("Edit" , "Profile", new { email = User.Identity.Name, id = Model.id }) "'> Edit </button>
+                <button  style="font-size:20px;" type="button" class="btn btn-danger btn-sm" onclick='document.location =" @Url.Action("RestPassword" , "Profile", new { email = User.Identity.Name, id = Model.id }) "'> Edit Password </button>
+            </div>
+
+        </div>
+    </div>
+    <div class="col-md-9"></div>
+</div>
+
+
+

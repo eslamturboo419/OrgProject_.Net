@@ -1,0 +1,110 @@
+﻿@model OrgProject.Models.ProjectToSubmitDoctor
+
+@{
+    ViewBag.Title = "Submit ";
+    Layout = "~/Views/Shared/_LayoutHome.cshtml";
+}
+
+<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+<script>
+    $(document).ready(function () {
+        Here();
+        Here2();
+    });
+
+
+    function Here() {
+        $("#normalDropDown").chosen({
+            disable_search_threshold: 3
+        });
+    };
+    function Here2() {
+        $("#normalDropDown2").chosen({
+            disable_search_threshold: 3
+        });
+    }
+
+
+</script>
+
+<h2> Submit  Project To Doctor </h2>
+<div class="row">
+
+
+    <div class="col-md-3"></div>
+    <div class="col-md-6" style="padding: 20px;">
+
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-horizontal">
+
+                <hr />
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                <div class="form-group">
+                    @Html.LabelFor(model => model.NameOfProject, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.NameOfProject, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.NameOfProject, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Description, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+
+                        @Html.TextAreaFor(model => model.Description, htmlAttributes: new { @class = "form-control input-lg" })
+                        @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Names, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.Names, new { htmlAttributes = new { @class = "form-control", placeholder = "Seprate each name with ( , ) " } })
+                        @Html.ValidationMessageFor(model => model.Names, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Doc_Id, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.DropDownList("Doc_Id", null, htmlAttributes: new { @class = "form-control", id = "normalDropDown" })
+                        @Html.ValidationMessageFor(model => model.Doc_Id, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Dep_id, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.DropDownList("Dep_id", null, htmlAttributes: new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.Dep_id, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.TeachAss_id, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.DropDownList("TeachAss_id", null, htmlAttributes: new { @class = "form-control", id = "normalDropDown2" })
+                        @Html.ValidationMessageFor(model => model.TeachAss_id, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <input type="submit" value="Create" class="btn btn-default" />
+                    </div>
+                </div>
+            </div>
+        }
+
+
+    </div>
+    <div class="col-md-3"></div>
+</div>
+<div>
+    <h1>  @ViewBag.message  </h1>
+    <p> @Html.ActionLink("Go To Home", "index", "Teams") </p>
+</div>

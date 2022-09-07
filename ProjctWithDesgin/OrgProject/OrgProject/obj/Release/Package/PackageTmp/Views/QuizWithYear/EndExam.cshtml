@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "EndExam";
+    Layout = "~/Views/Shared/_LayoutHome.cshtml";
+}
+
+<h2>EndExam</h2>
+ 
+
+<h2> @TempData["score"]   </h2>
+
+@Html.ActionLink("Home", "Index", "Home", null, new { @class = "btn btn-primary" })
+

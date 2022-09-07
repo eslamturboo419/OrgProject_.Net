@@ -1,0 +1,168 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title   </title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+
+    @*<link href="~/Content/alertifyjs/alertify.min.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome.css" rel="stylesheet" />
+    <link href="~/Content/themes/base/autocomplete.css" rel="stylesheet" />
+    <link href="~/Content/jquery-ui.theme.css" rel="stylesheet" />*@
+
+    @*<script src="~/Scripts/jquery-3.3.1.min.js"></script>*@
+    @Styles.Render("~/Content/Mycss")
+
+
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>@Html.ActionLink("ViewMaster", "ViewMaster", "Home")</li>
+                    <li>  @Html.ActionLink("ViewGuide", "ViewGuide", "Home") </li>
+                    <li>  @Html.ActionLink("Contact us", "Index", "SendDataTOGmail")</li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                           aria-expanded="false">See Courser With Year<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+
+                            <li>@Html.ActionLink("Year1", "ViewCourceWithYear", "Home", new { year = 1 }, htmlAttributes: new { @class = "" })</li>
+                            <li>@Html.ActionLink("Year2", "ViewCourceWithYear", "Home", new { year = 2 }, htmlAttributes: new { @class = "" })</li>
+                            <li>@Html.ActionLink("Year3", "ViewCourceWithYear", "Home", new { year = 3 }, htmlAttributes: new { @class = "" })</li>
+                            <li>@Html.ActionLink("Year4", "ViewCourceWithYear", "Home", new { year = 4 }, htmlAttributes: new { @class = "" })</li>
+
+                        </ul>
+                    </li>
+
+
+
+
+
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        if (User.IsInRole("Admin"))
+                        {
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                                   aria-expanded="false">Admin<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+
+                                    <li>@Html.ActionLink("ViewCourceWithYear", "Index", "AdminCourceEachYear")</li>
+                                    <li> @Html.ActionLink("Department", "Index", "AdminDepartment")</li>
+                                    <li>@Html.ActionLink("FinalMaster", "Index", "AdminFinalMaster")</li>
+                                    <li>@Html.ActionLink("FinalProject", "Index", "AdminFinalProject")</li>
+                                    <li>@Html.ActionLink("Guide", "Index", "AdminGuide")</li>
+                                    <li>@Html.ActionLink("ManageType", "Index", "AdminManageType")</li>
+                                    <li>@Html.ActionLink("ManageUsers", "Index", "AdminManageUsers")</li>
+                                    <li>@Html.ActionLink("ManageQuestions", "Index", "AdminManageQuestions")</li>
+                                    <li>@Html.ActionLink("ManageComments", "Index", "AdminManageComments")</li>
+
+
+                                </ul>
+                            </li>
+                        }
+
+
+
+                        if (User.IsInRole("Doctor"))
+                        {
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                                   aria-expanded="false">Doctor<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li>@Html.ActionLink(" See Project", "Index", "Doctors")</li>
+                                </ul>
+                            </li>
+                        }
+
+                        if (User.IsInRole("Leader"))
+                        {
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                                   aria-expanded="false">Team Leader<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li>@Html.ActionLink("TeamPage", "Index", "Teams")</li>
+                                </ul>
+                            </li>
+                        }
+
+
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                               aria-expanded="false">@User.Identity.Name<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li>@Html.ActionLink("View Profile", "ViewProfile", "Profile", new { Email = User.Identity.Name }, htmlAttributes: new { @class = "" })</li>
+                                <li>@Html.ActionLink("logOut", "logOut", "Account")</li>
+                            </ul>
+                        </li>
+
+
+                        <li>@Html.ActionLink("ChatRoom", "Index", "ChatRoom")</li>
+
+
+                    }
+                    else
+                    {
+
+                        <li>@Html.ActionLink("login", "login", "Account")</li>
+                    }
+
+
+
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">    Languages  <span class="caret"></span>  </a>
+                        <ul class="dropdown-menu">
+                            <li>   @Html.ActionLink("English", "Change", "Home", new { LangVal = "en" }, null)   </li>
+                            <li>   @Html.ActionLink("Arabic", "Change", "Home", new { LangVal = "ar" }, null)</li>
+                        </ul>
+                    </li>
+
+
+
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container body-content" style="margin-top:80px;">
+        @RenderBody()
+        <hr />
+    </div>
+
+    @*@Scripts.Render("~/bundles/jquery")*@
+    @Scripts.Render("~/myScript/jsfile")
+
+    @Scripts.Render("~/bundles/jqueryval")
+
+    @Scripts.Render("~/bundles/bootstrap")
+
+
+
+
+    @*<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+        <script src="~/Scripts/alertify.min.js"></script>
+        <script src="~/Scripts/jquery-ui.js"></script>
+        <script src="~/Scripts/jquery.validate.min.js"></script>
+        <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>*@
+
+
+    @RenderSection("scripts", required: false)
+</body>
+</html>

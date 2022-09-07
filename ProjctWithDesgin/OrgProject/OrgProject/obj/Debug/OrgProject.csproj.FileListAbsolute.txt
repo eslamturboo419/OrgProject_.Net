@@ -1,0 +1,735 @@
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\ApplicationInsights.config
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\OrgProject.dll.config
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\OrgProject.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\OrgProject.pdb
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\csc.exe
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\csc.exe.config
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\csc.rsp
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\csi.exe
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\csi.exe.config
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\csi.rsp
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.AppContext.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Collections.Immutable.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Console.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Diagnostics.Process.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.IO.Compression.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.IO.FileSystem.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.IO.Pipes.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Reflection.Metadata.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Security.AccessControl.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Security.Claims.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Threading.Thread.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.ValueTuple.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Xml.XPath.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\vbc.exe
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\vbc.exe.config
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\vbc.rsp
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\VBCSCompiler.exe
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\VBCSCompiler.exe.config
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Antlr3.Runtime.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\EntityFramework.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\EntityFramework.SqlServer.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.DependencyCollector.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.Web.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.WindowsServer.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.ApplicationInsights.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.Web.Infrastructure.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Newtonsoft.Json.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\PagedList.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\PagedList.Mvc.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\RestSharp.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\StarDocsSDK.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.Helpers.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.Mvc.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.Optimization.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.Razor.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.WebPages.Deployment.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.WebPages.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.WebPages.Razor.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\WebGrease.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\EntityFramework.xml
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\EntityFramework.SqlServer.xml
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Newtonsoft.Json.xml
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\PagedList.xml
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\PagedList.Mvc.xml
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.Helpers.xml
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.Mvc.xml
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.Optimization.xml
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.Razor.xml
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.WebPages.xml
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.WebPages.Deployment.xml
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.WebPages.Razor.xml
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Antlr3.Runtime.pdb
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.ApplicationInsights.xml
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.DependencyCollector.xml
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.WindowsServer.xml
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.Web.xml
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\obj\Debug\OrgProject.csproj.CoreCompileInputs.cache
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\obj\Debug\OrgProject.csproj.CopyComplete
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\obj\Debug\OrgProject.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\obj\Debug\OrgProject.pdb
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Turbooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\obj\Debug\OrgProject.csprojResolveAssemblyReference.cache
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\ApplicationInsights.config
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\OrgProject.dll.config
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\OrgProject.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\OrgProject.pdb
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Ar\OrgProject.resources.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\csc.exe
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\csc.exe.config
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\csc.rsp
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\csi.exe
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\csi.exe.config
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\csi.rsp
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.AppContext.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Collections.Immutable.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Console.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Diagnostics.Process.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.IO.Compression.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.IO.FileSystem.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.IO.Pipes.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Reflection.Metadata.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Security.AccessControl.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Security.Claims.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Threading.Thread.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.ValueTuple.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Xml.XPath.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\vbc.exe
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\vbc.exe.config
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\vbc.rsp
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\VBCSCompiler.exe
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\VBCSCompiler.exe.config
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Antlr3.Runtime.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\EntityFramework.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\EntityFramework.SqlServer.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.DependencyCollector.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.Web.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.WindowsServer.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.ApplicationInsights.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.SignalR.Client.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.SignalR.Core.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.Owin.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.Owin.Security.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.Web.Infrastructure.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Newtonsoft.Json.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Owin.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\PagedList.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\PagedList.Mvc.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\RestSharp.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\StarDocsSDK.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.Helpers.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.Mvc.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.Optimization.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.Razor.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.WebPages.Deployment.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.WebPages.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.WebPages.Razor.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\WebGrease.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\EntityFramework.xml
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\EntityFramework.SqlServer.xml
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.SignalR.Client.pdb
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.SignalR.Client.xml
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.SignalR.Core.pdb
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.SignalR.Core.xml
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.Owin.xml
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.Owin.Security.xml
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Newtonsoft.Json.xml
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\PagedList.xml
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\PagedList.Mvc.xml
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.Helpers.xml
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.Mvc.xml
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.Optimization.xml
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.Razor.xml
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.WebPages.xml
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.WebPages.Deployment.xml
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.WebPages.Razor.xml
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Antlr3.Runtime.pdb
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.ApplicationInsights.xml
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.DependencyCollector.xml
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.WindowsServer.xml
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.Web.xml
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\obj\Debug\OrgProject.Resources.ResourceHome.resources
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\obj\Debug\OrgProject.Resources.ResourceHome.Ar.resources
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\obj\Debug\OrgProject.csproj.GenerateResource.cache
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\obj\Debug\OrgProject.csproj.CoreCompileInputs.cache
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\obj\Debug\Ar\OrgProject.resources.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\obj\Debug\OrgProject.csproj.CopyComplete
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\obj\Debug\OrgProject.dll
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\obj\Debug\OrgProject.pdb
+E:\Turboooooooooooooooooooooooooooooooooooooo\ProjctWithDesgin\OrgProject\OrgProject\obj\Debug\OrgProject.csprojAssemblyReference.cache
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\ApplicationInsights.config
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\OrgProject.dll.config
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\OrgProject.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\OrgProject.pdb
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Ar\OrgProject.resources.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\csc.exe
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\csc.exe.config
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\csc.rsp
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\csi.exe
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\csi.exe.config
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\csi.rsp
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.AppContext.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Collections.Immutable.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Console.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Diagnostics.Process.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.IO.Compression.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.IO.FileSystem.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.IO.Pipes.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Reflection.Metadata.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Security.AccessControl.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Security.Claims.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Threading.Thread.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.ValueTuple.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Xml.XPath.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\vbc.exe
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\vbc.exe.config
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\vbc.rsp
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\VBCSCompiler.exe
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\VBCSCompiler.exe.config
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Antlr3.Runtime.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\EntityFramework.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\EntityFramework.SqlServer.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.DependencyCollector.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.Web.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.WindowsServer.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.ApplicationInsights.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.SignalR.Client.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.SignalR.Core.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.Owin.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.Owin.Security.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.Web.Infrastructure.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Newtonsoft.Json.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Owin.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\PagedList.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\PagedList.Mvc.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\RestSharp.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\StarDocsSDK.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.Helpers.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.Mvc.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.Optimization.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.Razor.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.WebPages.Deployment.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.WebPages.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.WebPages.Razor.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\WebGrease.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\EntityFramework.xml
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\EntityFramework.SqlServer.xml
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.SignalR.Client.pdb
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.SignalR.Client.xml
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.SignalR.Core.pdb
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.SignalR.Core.xml
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.Owin.xml
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.Owin.Security.xml
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Newtonsoft.Json.xml
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\PagedList.xml
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\PagedList.Mvc.xml
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.Helpers.xml
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.Mvc.xml
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.Optimization.xml
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.Razor.xml
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.WebPages.xml
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.WebPages.Deployment.xml
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.WebPages.Razor.xml
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Antlr3.Runtime.pdb
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.ApplicationInsights.xml
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.DependencyCollector.xml
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.WindowsServer.xml
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.Web.xml
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\obj\Debug\OrgProject.csprojResolveAssemblyReference.cache
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\obj\Debug\OrgProject.Resources.ResourceHome.resources
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\obj\Debug\OrgProject.Resources.ResourceHome.Ar.resources
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\obj\Debug\OrgProject.csproj.GenerateResource.cache
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\obj\Debug\OrgProject.csproj.CoreCompileInputs.cache
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\obj\Debug\Ar\OrgProject.resources.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\obj\Debug\OrgProject.csproj.CopyComplete
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\obj\Debug\OrgProject.dll
+E:\Pic\Lastttttttt\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\obj\Debug\OrgProject.pdb
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\ApplicationInsights.config
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\OrgProject.dll.config
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\OrgProject.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\OrgProject.pdb
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Ar\OrgProject.resources.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\csc.exe
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\csc.exe.config
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\csc.rsp
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\csi.exe
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\csi.exe.config
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\csi.rsp
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.AppContext.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Collections.Immutable.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Console.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Diagnostics.Process.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.IO.Compression.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.IO.FileSystem.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.IO.Pipes.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Reflection.Metadata.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Security.AccessControl.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Security.Claims.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Security.Principal.Windows.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Threading.Thread.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.ValueTuple.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Xml.XmlDocument.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Xml.XPath.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\vbc.exe
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\vbc.exe.config
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\vbc.rsp
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\VBCSCompiler.exe
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\VBCSCompiler.exe.config
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Antlr3.Runtime.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\EntityFramework.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\EntityFramework.SqlServer.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.Agent.Intercept.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.DependencyCollector.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.Web.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.WindowsServer.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.ApplicationInsights.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.Identity.Core.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.SignalR.Client.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.SignalR.Core.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.Owin.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.Owin.Security.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.Web.Infrastructure.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Newtonsoft.Json.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Owin.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\PagedList.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\PagedList.Mvc.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\RestSharp.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\StarDocsSDK.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.Helpers.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.Mvc.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.Optimization.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.Razor.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.WebPages.Deployment.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.WebPages.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.WebPages.Razor.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\WebGrease.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\EntityFramework.xml
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\EntityFramework.SqlServer.xml
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.Identity.Core.xml
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.SignalR.Client.pdb
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.SignalR.Client.xml
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.SignalR.Core.pdb
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.SignalR.Core.xml
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.Owin.xml
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.Owin.Security.xml
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Newtonsoft.Json.xml
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\PagedList.xml
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\PagedList.Mvc.xml
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.Helpers.xml
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.Mvc.xml
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.Optimization.xml
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.Razor.xml
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.WebPages.xml
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.WebPages.Deployment.xml
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.WebPages.Razor.xml
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Antlr3.Runtime.pdb
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.ApplicationInsights.xml
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.DependencyCollector.xml
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.WindowsServer.xml
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.Web.xml
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\obj\Debug\OrgProject.csprojResolveAssemblyReference.cache
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\obj\Debug\OrgProject.Resources.ResourceHome.resources
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\obj\Debug\OrgProject.Resources.ResourceHome.Ar.resources
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\obj\Debug\OrgProject.csproj.GenerateResource.cache
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\obj\Debug\OrgProject.csproj.CoreCompileInputs.cache
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\obj\Debug\Ar\OrgProject.resources.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\obj\Debug\OrgProject.csproj.CopyComplete
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\obj\Debug\OrgProject.dll
+E:\BackEnd___Organize it\Second\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\obj\Debug\OrgProject.pdb
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\ApplicationInsights.config
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\OrgProject.dll.config
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\OrgProject.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\OrgProject.pdb
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Ar\OrgProject.resources.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\csc.exe
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\csc.exe.config
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\csc.rsp
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\csi.exe
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\csi.exe.config
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\csi.rsp
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.AppContext.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Collections.Immutable.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Console.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Diagnostics.Process.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.IO.Compression.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.IO.FileSystem.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.IO.Pipes.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Reflection.Metadata.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Security.AccessControl.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Security.Claims.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Security.Principal.Windows.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Threading.Thread.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.ValueTuple.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Xml.XmlDocument.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Xml.XPath.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\vbc.exe
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\vbc.exe.config
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\vbc.rsp
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\VBCSCompiler.exe
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\VBCSCompiler.exe.config
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Antlr3.Runtime.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\EntityFramework.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\EntityFramework.SqlServer.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.Agent.Intercept.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.DependencyCollector.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.Web.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.WindowsServer.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.ApplicationInsights.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.Identity.Core.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.SignalR.Client.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.SignalR.Core.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.Owin.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.Owin.Security.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.Web.Infrastructure.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Newtonsoft.Json.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Owin.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\PagedList.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\PagedList.Mvc.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\RestSharp.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\StarDocsSDK.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.Helpers.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.Mvc.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.Optimization.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.Razor.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.WebPages.Deployment.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.WebPages.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.WebPages.Razor.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\WebGrease.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\EntityFramework.xml
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\EntityFramework.SqlServer.xml
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.Identity.Core.xml
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.SignalR.Client.pdb
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.SignalR.Client.xml
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.SignalR.Core.pdb
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.SignalR.Core.xml
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.Owin.xml
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.Owin.Security.xml
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Newtonsoft.Json.xml
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\PagedList.xml
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\PagedList.Mvc.xml
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.Helpers.xml
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.Mvc.xml
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.Optimization.xml
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.Razor.xml
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.WebPages.xml
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.WebPages.Deployment.xml
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.WebPages.Razor.xml
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Antlr3.Runtime.pdb
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.ApplicationInsights.xml
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.DependencyCollector.xml
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.WindowsServer.xml
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.Web.xml
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\obj\Debug\OrgProject.csproj.AssemblyReference.cache
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\obj\Debug\OrgProject.Resources.ResourceHome.resources
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\obj\Debug\OrgProject.Resources.ResourceHome.Ar.resources
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\obj\Debug\OrgProject.csproj.GenerateResource.cache
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\obj\Debug\OrgProject.csproj.CoreCompileInputs.cache
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\obj\Debug\Ar\OrgProject.resources.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\obj\Debug\OrgProject.csproj.CopyComplete
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\obj\Debug\OrgProject.dll
+E:\BackEnd___Organize it\Second\last\LastVersion\ProjctWithDesgin\OrgProject\OrgProject\obj\Debug\OrgProject.pdb
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\ApplicationInsights.config
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\OrgProject.dll.config
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\OrgProject.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\OrgProject.pdb
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\Ar\OrgProject.resources.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\csc.exe
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\csc.exe.config
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\csc.rsp
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\csi.exe
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\csi.exe.config
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\csi.rsp
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.AppContext.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Collections.Immutable.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Console.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Diagnostics.Process.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.IO.Compression.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.IO.FileSystem.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.IO.Pipes.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Reflection.Metadata.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Security.AccessControl.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Security.Claims.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Security.Principal.Windows.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Threading.Thread.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.ValueTuple.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Xml.XmlDocument.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Xml.XPath.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\vbc.exe
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\vbc.exe.config
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\vbc.rsp
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\VBCSCompiler.exe
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\roslyn\VBCSCompiler.exe.config
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\Antlr3.Runtime.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\EntityFramework.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\EntityFramework.SqlServer.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.Agent.Intercept.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.DependencyCollector.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.Web.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.WindowsServer.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.ApplicationInsights.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.Identity.Core.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.SignalR.Client.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.SignalR.Core.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.Owin.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.Owin.Security.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.Web.Infrastructure.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\Newtonsoft.Json.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\Owin.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\PagedList.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\PagedList.Mvc.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\RestSharp.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\StarDocsSDK.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.Helpers.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.Mvc.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.Optimization.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.Razor.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.WebPages.Deployment.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.WebPages.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.WebPages.Razor.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\WebGrease.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\EntityFramework.xml
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\EntityFramework.SqlServer.xml
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.Identity.Core.xml
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.SignalR.Client.pdb
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.SignalR.Client.xml
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.SignalR.Core.pdb
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.SignalR.Core.xml
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.Owin.xml
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.Owin.Security.xml
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\Newtonsoft.Json.xml
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\PagedList.xml
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\PagedList.Mvc.xml
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.Helpers.xml
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.Mvc.xml
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.Optimization.xml
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.Razor.xml
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.WebPages.xml
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.WebPages.Deployment.xml
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\System.Web.WebPages.Razor.xml
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\Antlr3.Runtime.pdb
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.ApplicationInsights.xml
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.DependencyCollector.xml
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.WindowsServer.xml
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\bin\Microsoft.AI.Web.xml
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\obj\Debug\OrgProject.csproj.AssemblyReference.cache
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\obj\Debug\OrgProject.Resources.ResourceHome.resources
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\obj\Debug\OrgProject.Resources.ResourceHome.Ar.resources
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\obj\Debug\OrgProject.csproj.GenerateResource.cache
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\obj\Debug\OrgProject.csproj.CoreCompileInputs.cache
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\obj\Debug\Ar\OrgProject.resources.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\obj\Debug\OrgProject.csproj.CopyComplete
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\obj\Debug\OrgProject.dll
+E:\BackEnd___Organize it\Second\CV_Projects\OrgProject\ProjctWithDesgin\OrgProject\OrgProject\obj\Debug\OrgProject.pdb

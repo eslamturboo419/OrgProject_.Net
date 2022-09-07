@@ -1,0 +1,509 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MyDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="AllUserData">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="F_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="L_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="type_id" Type="Int32" />
+    <Property Name="Dep_id" Type="Int32" />
+    <NavigationProperty Name="Departement_Name" Relationship="Self.FK_AllUserData_Departement_Name" FromRole="AllUserData" ToRole="Departement_Name" />
+    <NavigationProperty Name="Type" Relationship="Self.FK_AllUserData_Types" FromRole="AllUserData" ToRole="Types" />
+    <NavigationProperty Name="CoursesWithYears" Relationship="Self.FK_CourcesWithYear_AllUserData" FromRole="AllUserData" ToRole="CoursesWithYear" />
+    <NavigationProperty Name="FinalMasters" Relationship="Self.FK_FinalMaster_AllUserData" FromRole="AllUserData" ToRole="FinalMaster" />
+    <NavigationProperty Name="FinalProjects" Relationship="Self.FK_FinalProject_AllUserData" FromRole="AllUserData" ToRole="FinalProject" />
+    <NavigationProperty Name="FinalProjects1" Relationship="Self.FK_FinalProject_AllUserData1" FromRole="AllUserData" ToRole="FinalProject" />
+    <NavigationProperty Name="ProjectToSubmitDoctors" Relationship="Self.FK_ProjectToSubmitDoctor_AllUserData" FromRole="AllUserData" ToRole="ProjectToSubmitDoctor" />
+    <NavigationProperty Name="ProjectToSubmitDoctors1" Relationship="Self.FK_ProjectToSubmitDoctor_AllUserData1" FromRole="AllUserData" ToRole="ProjectToSubmitDoctor" />
+  </EntityType>
+  <EntityType Name="ChatMessageDetail">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Message" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="EmailID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="ChatPrivateMessageDetail">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MasterEmailID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ChatToEmailID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Message" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="ChatPrivateMessageMaster">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="EmailID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="ChatUserDetail">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ConnectionId" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="UserName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="EmailID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ThisType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Comment">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Text" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedOn" Type="DateTime" Precision="0" />
+    <Property Name="Project_Id" Type="Int32" />
+    <Property Name="Master_id" Type="Int32" />
+    <NavigationProperty Name="FinalMaster" Relationship="Self.FK_Comment_FinalMaster" FromRole="Comment" ToRole="FinalMaster" />
+    <NavigationProperty Name="FinalProject" Relationship="Self.FK_Comment_FinalProject" FromRole="Comment" ToRole="FinalProject" />
+    <NavigationProperty Name="Replies" Relationship="Self.FK_Replay_Comment" FromRole="Comment" ToRole="Reply" />
+  </EntityType>
+  <EntityType Name="CoursesWithYear">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NameOfCource" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Doc_id" Type="Int32" />
+    <Property Name="YearOfThisCource" Type="Int32" />
+    <Property Name="Deaprtment" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Term" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="AllUserData" Relationship="Self.FK_CourcesWithYear_AllUserData" FromRole="CoursesWithYear" ToRole="AllUserData" />
+    <NavigationProperty Name="Questions" Relationship="Self.FK_Questions_CourcesWithYear" FromRole="CoursesWithYear" ToRole="Questions" />
+  </EntityType>
+  <EntityType Name="Departement_Name">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="AllUserDatas" Relationship="Self.FK_AllUserData_Departement_Name" FromRole="Departement_Name" ToRole="AllUserData" />
+    <NavigationProperty Name="FinalMasters" Relationship="Self.FK_FinalMaster_Departement_Name" FromRole="Departement_Name" ToRole="FinalMaster" />
+    <NavigationProperty Name="FinalProjects" Relationship="Self.FK_FinalProject_Departement_Name" FromRole="Departement_Name" ToRole="FinalProject" />
+    <NavigationProperty Name="ProjectToSubmitDoctors" Relationship="Self.FK_ProjectToSubmitDoctor_Departement_Name" FromRole="Departement_Name" ToRole="ProjectToSubmitDoctor" />
+  </EntityType>
+  <EntityType Name="FinalMaster">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NameOfMaster" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Descrpition" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="TitleOfMaster" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="IsActive" Type="Boolean" />
+    <Property Name="PdfFile" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ImageProject" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="YearThisMaster" Type="Int32" />
+    <Property Name="Dep_id" Type="Int32" />
+    <Property Name="Doc_id" Type="Int32" />
+    <Property Name="DoctorExam" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="AllUserData" Relationship="Self.FK_FinalMaster_AllUserData" FromRole="FinalMaster" ToRole="AllUserData" />
+    <NavigationProperty Name="Comments" Relationship="Self.FK_Comment_FinalMaster" FromRole="FinalMaster" ToRole="Comment" />
+    <NavigationProperty Name="Departement_Name" Relationship="Self.FK_FinalMaster_Departement_Name" FromRole="FinalMaster" ToRole="Departement_Name" />
+    <NavigationProperty Name="Replies" Relationship="Self.FK_Replay_FinalMaster" FromRole="FinalMaster" ToRole="Reply" />
+  </EntityType>
+  <EntityType Name="FinalProject">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="LeaderName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NameOfProject" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NmaesOfTeam" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Descrpition" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="TitleOfProject" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="IsActive" Type="Boolean" />
+    <Property Name="SourceCode" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="VideoUpload" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PdfFile" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ImageProject" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="YearOfTheProject" Type="Int32" />
+    <Property Name="Dep_id" Type="Int32" />
+    <Property Name="Doc_id" Type="Int32" />
+    <Property Name="TeachAss_id" Type="Int32" />
+    <NavigationProperty Name="AllUserData" Relationship="Self.FK_FinalProject_AllUserData" FromRole="FinalProject" ToRole="AllUserData" />
+    <NavigationProperty Name="AllUserData1" Relationship="Self.FK_FinalProject_AllUserData1" FromRole="FinalProject" ToRole="AllUserData" />
+    <NavigationProperty Name="Comments" Relationship="Self.FK_Comment_FinalProject" FromRole="FinalProject" ToRole="Comment" />
+    <NavigationProperty Name="Departement_Name" Relationship="Self.FK_FinalProject_Departement_Name" FromRole="FinalProject" ToRole="Departement_Name" />
+    <NavigationProperty Name="Replies" Relationship="Self.FK_Replay_FinalProject" FromRole="FinalProject" ToRole="Reply" />
+  </EntityType>
+  <EntityType Name="ProjectToSubmitDoctor">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NameOfProject" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Names" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="IsActive" Type="Boolean" Nullable="false" />
+    <Property Name="ThisStudent" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Doc_Id" Type="Int32" />
+    <Property Name="Dep_id" Type="Int32" />
+    <Property Name="TeachAss_id" Type="Int32" />
+    <NavigationProperty Name="AllUserData" Relationship="Self.FK_ProjectToSubmitDoctor_AllUserData" FromRole="ProjectToSubmitDoctor" ToRole="AllUserData" />
+    <NavigationProperty Name="AllUserData1" Relationship="Self.FK_ProjectToSubmitDoctor_AllUserData1" FromRole="ProjectToSubmitDoctor" ToRole="AllUserData" />
+    <NavigationProperty Name="Departement_Name" Relationship="Self.FK_ProjectToSubmitDoctor_Departement_Name" FromRole="ProjectToSubmitDoctor" ToRole="Departement_Name" />
+  </EntityType>
+  <EntityType Name="Question">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Qu_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Answer_1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Answer_2" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Answer_3" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Answer_4" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Answer_Correct" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Course_id" Type="Int32" />
+    <NavigationProperty Name="CoursesWithYear" Relationship="Self.FK_Questions_CourcesWithYear" FromRole="Questions" ToRole="CoursesWithYear" />
+  </EntityType>
+  <EntityType Name="Reply">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Text" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedOn" Type="DateTime" Precision="0" />
+    <Property Name="Comment_id" Type="Int32" />
+    <Property Name="Project_Id" Type="Int32" />
+    <Property Name="Master_id" Type="Int32" />
+    <NavigationProperty Name="Comment" Relationship="Self.FK_Replay_Comment" FromRole="Reply" ToRole="Comment" />
+    <NavigationProperty Name="FinalMaster" Relationship="Self.FK_Replay_FinalMaster" FromRole="Reply" ToRole="FinalMaster" />
+    <NavigationProperty Name="FinalProject" Relationship="Self.FK_Replay_FinalProject" FromRole="Reply" ToRole="FinalProject" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Type">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Type1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="AllUserDatas" Relationship="Self.FK_AllUserData_Types" FromRole="Types" ToRole="AllUserData" />
+  </EntityType>
+  <Association Name="FK_AllUserData_Departement_Name">
+    <End Role="Departement_Name" Type="Self.Departement_Name" Multiplicity="0..1" />
+    <End Role="AllUserData" Type="Self.AllUserData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Departement_Name">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AllUserData">
+        <PropertyRef Name="Dep_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AllUserData_Types">
+    <End Role="Types" Type="Self.Type" Multiplicity="0..1" />
+    <End Role="AllUserData" Type="Self.AllUserData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Types">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="AllUserData">
+        <PropertyRef Name="type_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CourcesWithYear_AllUserData">
+    <End Role="AllUserData" Type="Self.AllUserData" Multiplicity="0..1" />
+    <End Role="CoursesWithYear" Type="Self.CoursesWithYear" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AllUserData">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="CoursesWithYear">
+        <PropertyRef Name="Doc_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FinalMaster_AllUserData">
+    <End Role="AllUserData" Type="Self.AllUserData" Multiplicity="0..1" />
+    <End Role="FinalMaster" Type="Self.FinalMaster" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AllUserData">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="FinalMaster">
+        <PropertyRef Name="Doc_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FinalProject_AllUserData">
+    <End Role="AllUserData" Type="Self.AllUserData" Multiplicity="0..1" />
+    <End Role="FinalProject" Type="Self.FinalProject" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AllUserData">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="FinalProject">
+        <PropertyRef Name="TeachAss_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FinalProject_AllUserData1">
+    <End Role="AllUserData" Type="Self.AllUserData" Multiplicity="0..1" />
+    <End Role="FinalProject" Type="Self.FinalProject" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AllUserData">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="FinalProject">
+        <PropertyRef Name="Doc_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProjectToSubmitDoctor_AllUserData">
+    <End Role="AllUserData" Type="Self.AllUserData" Multiplicity="0..1" />
+    <End Role="ProjectToSubmitDoctor" Type="Self.ProjectToSubmitDoctor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AllUserData">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="ProjectToSubmitDoctor">
+        <PropertyRef Name="TeachAss_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProjectToSubmitDoctor_AllUserData1">
+    <End Role="AllUserData" Type="Self.AllUserData" Multiplicity="0..1" />
+    <End Role="ProjectToSubmitDoctor" Type="Self.ProjectToSubmitDoctor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AllUserData">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="ProjectToSubmitDoctor">
+        <PropertyRef Name="Doc_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Comment_FinalMaster">
+    <End Role="FinalMaster" Type="Self.FinalMaster" Multiplicity="0..1" />
+    <End Role="Comment" Type="Self.Comment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FinalMaster">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Comment">
+        <PropertyRef Name="Master_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Comment_FinalProject">
+    <End Role="FinalProject" Type="Self.FinalProject" Multiplicity="0..1" />
+    <End Role="Comment" Type="Self.Comment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FinalProject">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Comment">
+        <PropertyRef Name="Project_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Replay_Comment">
+    <End Role="Comment" Type="Self.Comment" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Reply" Type="Self.Reply" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Comment">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Reply">
+        <PropertyRef Name="Comment_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Questions_CourcesWithYear">
+    <End Role="CoursesWithYear" Type="Self.CoursesWithYear" Multiplicity="0..1" />
+    <End Role="Questions" Type="Self.Question" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CoursesWithYear">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Questions">
+        <PropertyRef Name="Course_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FinalMaster_Departement_Name">
+    <End Role="Departement_Name" Type="Self.Departement_Name" Multiplicity="0..1" />
+    <End Role="FinalMaster" Type="Self.FinalMaster" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Departement_Name">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="FinalMaster">
+        <PropertyRef Name="Dep_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FinalProject_Departement_Name">
+    <End Role="Departement_Name" Type="Self.Departement_Name" Multiplicity="0..1" />
+    <End Role="FinalProject" Type="Self.FinalProject" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Departement_Name">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="FinalProject">
+        <PropertyRef Name="Dep_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProjectToSubmitDoctor_Departement_Name">
+    <End Role="Departement_Name" Type="Self.Departement_Name" Multiplicity="0..1" />
+    <End Role="ProjectToSubmitDoctor" Type="Self.ProjectToSubmitDoctor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Departement_Name">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ProjectToSubmitDoctor">
+        <PropertyRef Name="Dep_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Replay_FinalMaster">
+    <End Role="FinalMaster" Type="Self.FinalMaster" Multiplicity="0..1" />
+    <End Role="Reply" Type="Self.Reply" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FinalMaster">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Reply">
+        <PropertyRef Name="Master_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Replay_FinalProject">
+    <End Role="FinalProject" Type="Self.FinalProject" Multiplicity="0..1" />
+    <End Role="Reply" Type="Self.Reply" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FinalProject">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Reply">
+        <PropertyRef Name="Project_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="MyDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="AllUserDatas" EntityType="Self.AllUserData" />
+    <EntitySet Name="ChatMessageDetails" EntityType="Self.ChatMessageDetail" />
+    <EntitySet Name="ChatPrivateMessageDetails" EntityType="Self.ChatPrivateMessageDetail" />
+    <EntitySet Name="ChatPrivateMessageMasters" EntityType="Self.ChatPrivateMessageMaster" />
+    <EntitySet Name="ChatUserDetails" EntityType="Self.ChatUserDetail" />
+    <EntitySet Name="Comments" EntityType="Self.Comment" />
+    <EntitySet Name="CoursesWithYears" EntityType="Self.CoursesWithYear" />
+    <EntitySet Name="Departement_Name" EntityType="Self.Departement_Name" />
+    <EntitySet Name="FinalMasters" EntityType="Self.FinalMaster" />
+    <EntitySet Name="FinalProjects" EntityType="Self.FinalProject" />
+    <EntitySet Name="ProjectToSubmitDoctors" EntityType="Self.ProjectToSubmitDoctor" />
+    <EntitySet Name="Questions" EntityType="Self.Question" />
+    <EntitySet Name="Replies" EntityType="Self.Reply" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="Types" EntityType="Self.Type" />
+    <AssociationSet Name="FK_AllUserData_Departement_Name" Association="Self.FK_AllUserData_Departement_Name">
+      <End Role="Departement_Name" EntitySet="Departement_Name" />
+      <End Role="AllUserData" EntitySet="AllUserDatas" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AllUserData_Types" Association="Self.FK_AllUserData_Types">
+      <End Role="Types" EntitySet="Types" />
+      <End Role="AllUserData" EntitySet="AllUserDatas" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CourcesWithYear_AllUserData" Association="Self.FK_CourcesWithYear_AllUserData">
+      <End Role="AllUserData" EntitySet="AllUserDatas" />
+      <End Role="CoursesWithYear" EntitySet="CoursesWithYears" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FinalMaster_AllUserData" Association="Self.FK_FinalMaster_AllUserData">
+      <End Role="AllUserData" EntitySet="AllUserDatas" />
+      <End Role="FinalMaster" EntitySet="FinalMasters" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FinalProject_AllUserData" Association="Self.FK_FinalProject_AllUserData">
+      <End Role="AllUserData" EntitySet="AllUserDatas" />
+      <End Role="FinalProject" EntitySet="FinalProjects" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FinalProject_AllUserData1" Association="Self.FK_FinalProject_AllUserData1">
+      <End Role="AllUserData" EntitySet="AllUserDatas" />
+      <End Role="FinalProject" EntitySet="FinalProjects" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProjectToSubmitDoctor_AllUserData" Association="Self.FK_ProjectToSubmitDoctor_AllUserData">
+      <End Role="AllUserData" EntitySet="AllUserDatas" />
+      <End Role="ProjectToSubmitDoctor" EntitySet="ProjectToSubmitDoctors" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProjectToSubmitDoctor_AllUserData1" Association="Self.FK_ProjectToSubmitDoctor_AllUserData1">
+      <End Role="AllUserData" EntitySet="AllUserDatas" />
+      <End Role="ProjectToSubmitDoctor" EntitySet="ProjectToSubmitDoctors" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Comment_FinalMaster" Association="Self.FK_Comment_FinalMaster">
+      <End Role="FinalMaster" EntitySet="FinalMasters" />
+      <End Role="Comment" EntitySet="Comments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Comment_FinalProject" Association="Self.FK_Comment_FinalProject">
+      <End Role="FinalProject" EntitySet="FinalProjects" />
+      <End Role="Comment" EntitySet="Comments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Replay_Comment" Association="Self.FK_Replay_Comment">
+      <End Role="Comment" EntitySet="Comments" />
+      <End Role="Reply" EntitySet="Replies" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Questions_CourcesWithYear" Association="Self.FK_Questions_CourcesWithYear">
+      <End Role="CoursesWithYear" EntitySet="CoursesWithYears" />
+      <End Role="Questions" EntitySet="Questions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FinalMaster_Departement_Name" Association="Self.FK_FinalMaster_Departement_Name">
+      <End Role="Departement_Name" EntitySet="Departement_Name" />
+      <End Role="FinalMaster" EntitySet="FinalMasters" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FinalProject_Departement_Name" Association="Self.FK_FinalProject_Departement_Name">
+      <End Role="Departement_Name" EntitySet="Departement_Name" />
+      <End Role="FinalProject" EntitySet="FinalProjects" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProjectToSubmitDoctor_Departement_Name" Association="Self.FK_ProjectToSubmitDoctor_Departement_Name">
+      <End Role="Departement_Name" EntitySet="Departement_Name" />
+      <End Role="ProjectToSubmitDoctor" EntitySet="ProjectToSubmitDoctors" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Replay_FinalMaster" Association="Self.FK_Replay_FinalMaster">
+      <End Role="FinalMaster" EntitySet="FinalMasters" />
+      <End Role="Reply" EntitySet="Replies" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Replay_FinalProject" Association="Self.FK_Replay_FinalProject">
+      <End Role="FinalProject" EntitySet="FinalProjects" />
+      <End Role="Reply" EntitySet="Replies" />
+    </AssociationSet>
+    <EntitySet Name="GuideYears" EntityType="MyDBModel.GuideYear" />
+  </EntityContainer>
+  <EntityType Name="GuideYear">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="HeaderOFYear" Type="Int32" />
+    <Property Name="Article" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Link1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Link2" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Link3" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Link4" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+</Schema>

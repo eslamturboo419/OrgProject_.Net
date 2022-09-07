@@ -1,0 +1,102 @@
+﻿@model DayNum1.Models.GmailClass
+
+@{
+    Layout = "~/Views/Shared/_LayoutHome.cshtml";
+    ViewBag.Title = "Contact Us";
+}
+
+<style>
+    .contacts {
+        min-height: 500px;
+        background-color: #DAD8D8;
+        margin: 30px;
+        padding: 30px;
+    }
+
+        .contacts .fa {
+            color: aliceblue !important;
+            font-size: 90px !important;
+            padding-left: 22% !important;
+        }
+       
+        .contacts .lead {
+            margin-bottom: 40px;
+        }
+
+        .contacts textarea {
+            margin-bottom: 30px;
+            height: 168px;
+            background-color:
+        }
+
+        .contacts input[type="text"],
+        .contacts input[type="email"],
+        .contacts textarea {
+            background-color: #ffffff;
+            color: #5D5959;
+            ;
+            /*border:*/
+        }
+</style>
+
+
+ 
+<div class="contacts">
+    <div class="row">
+        <h2 class="h1 text-center" style="color: #428BCA;"> Your Message  </h2>
+        <p class="lead text-center"  style="color: #428BCA;"> Tell Me What About My Website ? </p>
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @using (Html.BeginForm("Index", "SendDataTOGmail", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="col-md-6">
+                <div class="form-group">
+
+                    @*<input type="text" class="form-control" id="usr" placeholder="Enter Your User Name" >*@
+                    @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control input-lg", placeholder = "Enter Your  Name" , autocomplete = "off" } })
+                    @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+
+                    @*<input type="text" class="form-control" id="email" placeholder="Enter Your Email">*@
+                    @Html.EditorFor(model => model.YourEmail, new { htmlAttributes = new { @class = "form-control input-lg", placeholder = "Enter Your Email", autocomplete = "off" } })
+                    @Html.ValidationMessageFor(model => model.YourEmail, "", new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+
+                    @*<input type="text" class="form-control" id="num" placeholder="Enter Your Phone Number">*@
+                    @Html.EditorFor(model => model.PhoneNumber, new { htmlAttributes = new { @class = "form-control input-lg", placeholder = "Enter Your Phone Number", autocomplete = "off" } })
+                    @Html.ValidationMessageFor(model => model.PhoneNumber, "", new { @class = "text-danger" })
+                </div>
+
+
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+
+                    @*<textarea class="form-control" rows="5" id="comment" placeholder="Enter Your Message...."></textarea>*@
+                    @Html.TextAreaFor(model => model.Message, htmlAttributes: new { @class = "form-control input-lg", placeholder = "Enter Your Message" })
+                    @Html.ValidationMessageFor(model => model.Message, "", new { @class = "text-danger" })
+                </div>
+
+                <input class="btn btn-info btn-lg btn-block" type="submit" value="Send Data" style="background-color:#428BCA; width:25%; float:right;">
+
+
+
+            </div>
+
+        }
+    </div>
+
+    @if (ViewBag.MessageGmail != null)
+    {
+        <h2 class="h1 text-center  text-light"> @ViewBag.MessageGmail </h2>
+
+    }
+
+
+
+
+</div>
+ 

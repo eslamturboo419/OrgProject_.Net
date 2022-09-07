@@ -1,0 +1,105 @@
+﻿@model OrgProject.Models.CoursesWithYear
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+<script>
+     $(document).ready(function () {
+         Here();
+    });
+     function Here() {
+         $("#normalDropDown").chosen({
+             disable_search_threshold: 3
+         });
+    }
+</script>
+
+
+<h2>Create</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.NameOfCource, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.NameOfCource, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.NameOfCource, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Doc_id, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-4">
+                @Html.DropDownList("Doc_id", null, htmlAttributes: new { @class = "form-control" , id = "normalDropDown" })
+                @Html.ValidationMessageFor(model => model.Doc_id, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Deaprtment, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-4">
+                @Html.DropDownList("Deaprtment", null, "----", htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Deaprtment, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.YearOfThisCource, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-4">
+                <select name="YearOfThisCource" id="YearOfThisCource" class="form-control">
+
+                    @for (int i = 1; i < 5; i++)
+                    {
+                        <option value="@i"> @i </option>
+                    }
+                </select>
+                @Html.ValidationMessageFor(model => model.YearOfThisCource, "", new { @class = "text-danger" })
+
+            </div>
+        </div>
+
+
+        @*<div class="form-group">
+                @Html.LabelFor(model => model.Term, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Term, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Term, "", new { @class = "text-danger" })
+                </div>
+            </div>*@
+
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Term, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-4">
+                <select name="Term" id="Term" class="form-control">
+                    <option value="First"> First </option>
+                    <option value="Second"> Second </option>
+                </select>
+                @Html.ValidationMessageFor(model => model.Term, "", new { @class = "text-danger" })
+
+            </div>
+        </div>
+
+
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

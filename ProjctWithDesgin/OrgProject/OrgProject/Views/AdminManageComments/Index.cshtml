@@ -1,0 +1,164 @@
+﻿@model IEnumerable<OrgProject.Models.Comment>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+ 
+
+<style>
+    .au-btn {
+        margin: 30px 0 30px 10px;
+    }
+
+        .au-btn a {
+            color: #fff;
+        }
+
+            .au-btn a:hover {
+                color: #000;
+            }
+
+    .block-email {
+        line-height: 20px;
+        font-size: 12px;
+    }
+</style>
+<h2 style="margin-top:25px;"> Mangment Comments </h2>
+
+ 
+
+<div class="row">
+    <div class="col-md-12">
+
+
+        <div class="table-responsive table-responsive-data2">
+            <table class="table table-data2">
+                <thead>
+                    <tr>
+
+                        <th>@Html.DisplayNameFor(model => model.Text) </th>
+                        <th>@Html.DisplayNameFor(model => model.CreatedOn)</th>
+                        <th>Master Name</th>
+                        <th>Project Name</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                    <tr class="tr-shadow" id="row_@item.Id">
+
+                        <td>
+                            <span class="block-email">
+                                @Html.DisplayFor(modelItem => item.Text)
+                            </span>
+                        </td>
+                        <td> @Html.DisplayFor(modelItem => item.CreatedOn)  </td>
+                        @if (item.Master_id != null)
+                        {
+                            <td class="desc"> @Html.DisplayFor(modelItem => item.FinalMaster.NameOfMaster)</td>
+                        }
+                        else
+                        {
+                            <td>  None </td>
+                        }
+
+                        @if (item.Project_Id != null)
+                        {
+                            <td class="desc"> @Html.DisplayFor(modelItem => item.FinalProject.NameOfProject)</td>
+                        }
+                        else
+                        {
+                            <td> None </td>
+                        }
+  
+                        <td>
+                            <div class="table-data-feature">
+
+                                <button onclick='document.location =" @Url.Action("SeeAllReplay", "AdminManageComments", new { id = item.Id }) "' class="item" data-toggle="tooltip" data-placement="top" title="SeeAllReplay">
+                                        <i class="zmdi zmdi-comment-more">  </i>
+                                    </button>
+                                
+                                    <button onclick="ConfirmDelete(@item.Id)" class="item" data-toggle="tooltip" data-placement="top" title="Delete">
+                                        <i class="zmdi zmdi-delete"></i>
+                                    </button>
+
+                                @*    @Html.ActionLink("SeeAllReplay", "SeeAllReplay", "AdminManageComments", new { id = item.Id }, new { @class = "" })*@
+
+                            </div>
+                        </td>
+                    </tr>
+                        <tr class="spacer"></tr>
+
+                    }
+
+
+
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                
+                <h3 class="modal-title"> Delete   </h3>
+            </div>
+            <div class="modal-body">
+                <h4>Are you sure ? You want to delete This.</h4>
+                <p> Note : You Will Remove All Replaies Of This Comment </p>
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="btn btn-default" data-dismiss="modal">Cancel</a>
+                <a href="#" class="btn btn-success" onclick="DeleteDepartments()">Confirm</a>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<input type="hidden" id="hiddenDepartmentId" />
+<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+<script>
+
+    function ConfirmDelete(EmployeeId) {
+        if (EmployeeId != null) {
+            $("#hiddenDepartmentId").val(EmployeeId);
+            $("#myModal").modal('show');
+        }
+
+
+    }
+
+    function DeleteDepartments() {
+
+        var DepId = $("#hiddenDepartmentId").val();
+        if (DepId != null) {
+            $.ajax({
+
+                type: "POST",
+                url: "/AdminManageComments/DeleteDepartment",
+                data: { DepID: DepId },
+                success: function (result) {
+                    $("#loaderDiv").hide();
+                    $("#myModal").modal("hide");
+                    $("#row_" + DepId).remove();
+                    alertify.success("Delete Ok");
+
+                }
+
+            })
+        }
+
+
+    }
+</script>

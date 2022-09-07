@@ -1,0 +1,130 @@
+﻿@model IEnumerable<OrgProject.Models.CoursesWithYear>
+
+@{
+    ViewBag.Title = "ViewCourceWithYear";
+    Layout = "~/Views/Shared/_LayoutHome.cshtml";
+}
+<style>
+ 
+    h2 {
+        font-weight: bold !important;
+        color: #191F4E !important;
+    }
+
+    .panel-heading {
+        font-size: 20px;
+        font-weight: bold;
+        background-color: #191F4E !important;
+        color: #F5F5F5 !important;
+    }
+
+    th {
+        font-weight: 900;
+        font-size: 15px;
+    }
+
+    td {
+        font-size: 15px;
+    }
+</style>
+
+<div class="container" style="margin-top:50px;">
+    <div class="panel panel-default">
+
+        <div class="panel-heading">Abstract About  Year</div>
+        <div class="panel-body"><p>
+    @foreach (var item in TempData["DataGuide"] as List<OrgProject.Models.GuideYear>)
+    {
+        @item.Article
+        <br />
+        if (item.Link1 != null)
+        {
+            <a href="http://@item.Link1" target="_blank"> @item.Link1</a>
+
+        }
+        <br />
+
+        if (item.Link2 != null)
+        {
+            <a href="http://@item.Link2" target="_blank"> @item.Link2</a>
+
+        }
+        <br />
+
+        if (item.Link3 != null)
+        {
+            <a href="http://@item.Link3" target="_blank"> @item.Link3</a>
+
+        }
+        <br />
+
+        if (item.Link4 != null)
+        {
+            <a href="http://@item.Link4" target="_blank"> @item.Link4</a>
+
+        }
+
+    }
+
+
+
+</p></div>
+    </div>
+    <h2>Basic courses (first term)</h2>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Courses</th>
+                <th>Doctors</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var item in Model.Where(x => x.Term == "First"))
+            {
+                <tr>
+                    <td>@item.NameOfCource   <button onclick='document.location ="@Url.Action("QuizBeforeStart","QuizWithYear",new { id=item.id })"' class="item" data-toggle="tooltip" data-placement="top" title="Question"><i class="fa fa-info"></i></button> 
+                    </td>
+                    <td>DR/ @item.AllUserData.F_Name @item.AllUserData.L_Name </td>
+
+                </tr>
+            }
+
+
+        </tbody>
+    </table>
+
+
+
+    <h2>Basic courses (second term)</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Courses</th>
+                <th>Doctors</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var item in Model.Where(x => x.Term == "Second"))
+            {
+                <tr>
+                    <td>
+                        @item.NameOfCource  <button  onclick='document.location ="@Url.Action("QuizBeforeStart","QuizWithYear",new { id=item.id })"'  class="item" data-toggle="tooltip" data-placement="top" title="Question"> <i class="fa fa-info"></i></button>
+                                    </td>
+                    <td>DR/ @item.AllUserData.F_Name @item.AllUserData.L_Name </td>
+
+                </tr>
+            }
+
+
+        </tbody>
+    </table>
+
+
+
+
+
+
+</div>

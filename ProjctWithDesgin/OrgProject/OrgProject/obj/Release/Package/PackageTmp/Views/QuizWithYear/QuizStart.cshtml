@@ -1,0 +1,95 @@
+﻿@model OrgProject.Models.Question
+@{
+    ViewBag.Title = "QuizStart";
+    Layout = "~/Views/Shared/_LayoutHome.cshtml";
+}
+
+
+
+<div class="container">
+    <div class="row">
+
+        @using (Html.BeginForm())
+        {
+
+
+            @Html.HiddenFor(x => x.Id)
+
+            <h1>@Html.DisplayFor(x => x.Qu_Name)</h1>
+
+
+
+            <div class="form-group">
+                <div class="col-xs-12">
+                    @Html.RadioButtonFor(x => x.Answer_1, Model.Answer_1, new { @class = ""  }) @Model.Answer_1
+
+                    @*<input checked="checked" class="" id="Answer_1" name="Answer_1" type="radio" value="1" /> 1
+                    <input checked="checked" class="" id="Answer_2" name="Answer_2" type="radio" value="2" /> 2
+                    <input checked="checked" class="" id="Answer_3" name="Answer_3" type="radio" value="3" /> 3
+                    <input checked="checked" class="" id="Answer_4" name="Answer_4" type="radio" value="4" /> 4*@
+
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-xs-12">
+                    @Html.RadioButtonFor(x => x.Answer_2, Model.Answer_2, new { @class = "" }) @Model.Answer_2
+
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-xs-12">
+                    @Html.RadioButtonFor(x => x.Answer_3, Model.Answer_3, new { @class = "" }) @Model.Answer_3
+
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-xs-12">
+                    @Html.RadioButtonFor(x => x.Answer_4, Model.Answer_4, new { @class = "" }) @Model.Answer_4
+
+                </div>
+            </div>
+
+
+
+            <div class="form-group">
+                <div class="col-xs-12">
+                    <input type="submit" value="submit" class="btn btn-success" />
+                </div>
+            </div>
+
+
+
+
+
+        }
+
+
+        <p>
+            this are   "  @ViewBag.numberthis  "  Questions  untill You Finish The All Questions
+
+        </p>
+
+
+
+
+    </div>
+</div>
+
+
+<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+<script type="text/javascript">
+
+ 
+    function nnn() {
+        //$('input:radio:first').attr('checked', true);
+        //$('input:radio:second').attr('unchecked', true);
+        //$('input:radio:third').attr('checked', true);
+        //$('input:radio:fourth').attr('checked', true);
+    }
+
+    $(document).ready(function () {
+        nnn();
+
+    });
+
+    </script>

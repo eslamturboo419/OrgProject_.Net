@@ -1,0 +1,218 @@
+﻿@using PagedList;
+@using PagedList.Mvc;
+
+@model IPagedList<OrgProject.Models.FinalProject>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutHome.cshtml";
+}
+
+<style>
+    /* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+
+
+    .flip-box {
+        background-color: transparent;
+        overflow: hidden;
+        width: 270px;
+        margin: 20px 0 10px 0;
+        height: 250px;
+        border: 1px solid #f1f1f1;
+        perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    }
+
+    /* This container is needed to position the front and back side */
+    .flip-box-inner {
+        position: absolute !important;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+    }
+
+    /* Do an horizontal flip when you move the mouse over the flip box container */
+    .flip-box:hover .flip-box-inner {
+        transform: rotateY(180deg);
+    }
+
+    /* Position the front and back side */
+    .flip-box-front, .flip-box-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    /* Style the front side (fallback if image is missing) */
+    /*.flip-box-front {
+        background-color: #55AB26;
+        color: black;
+    }*/
+
+    /* Style the back side */
+    .flip-box-back {
+        background-color: white;
+        transform: rotateY(180deg);
+    }
+
+        .flip-box-back p {
+            color: #000000;
+            font-size: 15px;
+            padding: 15px;
+        }
+    /* Bottom left text */
+    .bottom-left {
+        position: absolute;
+        bottom: 8px;
+        min-width: 100%;
+        color: aliceblue;
+        font-size: 20px;
+    }
+
+
+
+
+    .btn {
+        background-color: #55AB26;
+        margin: 10px;
+        color: aliceblue;
+    }
+
+
+        .btn:hover {
+            background-color: aliceblue;
+            color: #55AB26;
+        }
+
+    .welcome {
+        background-color: #ECEDF0;
+        margin: 15px;
+        padding: 20px;
+    }
+    .formid {
+        margin: 40px auto 20px 40px
+    }
+
+    .img-thumbnail {
+        border: 1px solid #ef3535;
+    }
+
+    .MyImg {
+        background-color: #333;
+        padding: 7px;
+    }
+</style>
+
+
+
+<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+<script type="text/javascript">
+    alert("admin: Admin@admin.com  ,, pass : 12345");
+    alert("Doctor: Doctor@doctor.com  ,, pass : 12345");
+    alert("Leader:Leader@leader.com  ,, pass : 12345");
+    alert("admin: TeachAss@com  ,, pass : 12345");
+
+     function Here() {
+
+        //   https://jqueryui.com/
+        $("#txtsearch").autocomplete({
+            source: '@Url.Action("GetAllData")',
+
+        }); }
+
+    $(document).ready(function () {
+        Here();
+
+    });
+
+</script>
+ 
+<div class="container">
+    <div class="row">
+
+        @using (Html.BeginForm("Index", "Home", FormMethod.Post, new { @class = "formid" }))
+        {
+            <div class="form-horizontal">
+                <div class="form-group">
+                    <div class="col-md-4">
+                        @Html.TextBox("Search", null, htmlAttributes: new { @class = "form-control input-lg", id = "txtsearch" })
+                    </div>
+                    <div class="col-md-2">
+                        @Html.DropDownList("Dep_id", (IEnumerable<SelectListItem>)ViewBag.Dep_id  ,"---", new { @class = "form-control input-lg" })
+                    </div>
+
+                    <div class="col-md-3">
+                        @Html.DropDownList("YearBag", (IEnumerable<SelectListItem>)ViewBag.YearBag, "---", new { @class = "form-control input-lg" })
+                    </div>
+
+                    <div class="col-md-2">
+                        <input style="width:auto;height:45px;padding:10px 16px;font-size:18px;line-height:1.33;border-radius:6px; margin-top:auto;" type="submit" value="Search" class="form-control btn btn-success" />
+                    </div>
+                </div>
+            </div>
+        }
+
+
+
+        @if (Model.Count() == 0)
+        {
+            <h2 class="alert alert-danger text-center">  There Are No result </h2>
+        }
+        else
+        {
+            foreach (var item in Model)
+            {
+
+                <div class="col-md-4">
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+
+                            @if (item.ImageProject == null || item.ImageProject == "")
+                            {
+                                <img src="~/PdfImageVideo/images/face finder.png" class="flip-box-front  img-thumbnail MyImg" style="display: flex;" />
+                            }
+                            else
+                            {
+                                <img src="~/PdfImageVideo/images/@item.ImageProject" class="flip-box-front  img-thumbnail MyImg" style="display: flex;" />
+
+                            }
+
+
+                            <div class="bottom-left" style="color:white; background-color:black; padding:10px;"> @item.NameOfProject </div>
+
+                            <div class="flip-box-back">
+                                <P>
+                                    @item.TitleOfProject
+                                    <br>
+                                    @Html.ActionLink("see more", "Details", "Home", new { id = item.id }, new { @class = "btn btn-info" })
+                                </P>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            }
+        }
+
+
+
+
+
+    </div>
+
+</div>
+
+ 
+
+
+@Html.PagedListPager(Model, Page => Url.Action("index", new
+{ Page, Search = Request.QueryString["Search"] }), new PagedListRenderOptions()
+{
+    Display = PagedListDisplayMode.IfNeeded,
+    DisplayPageCountAndCurrentLocation = true
+})
+

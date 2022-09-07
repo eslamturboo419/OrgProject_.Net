@@ -1,0 +1,233 @@
+﻿@*@model IEnumerable<OrgProject.Models.FinalMaster>*@
+
+
+@using PagedList;
+@using PagedList.Mvc;
+
+@model IPagedList<OrgProject.Models.FinalMaster>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<style>
+    .au-btn {
+        margin: 30px 0 30px 10px;
+    }
+
+        .au-btn a {
+            color: #fff;
+        }
+
+            .au-btn a:hover {
+                color: #000;
+            }
+
+    .block-email {
+        line-height: 20px;
+        font-size: 12px;
+    }
+</style>
+<h2 style="margin-top:25px;"> Mangment Master </h2>
+
+<button class="au-btn au-btn-icon au-btn--green au-btn--small">
+    <i class="zmdi zmdi-plus"></i>   @Html.ActionLink("New Project", "Create")
+</button>
+
+
+@using (Html.BeginForm("Index", "AdminFinalMaster", FormMethod.Post, new { @class = "formid" }))
+{
+    <div class="form-horizontal">
+        <div class="form-group">
+            @*<div class="col-md-4">*@
+            @Html.TextBox("Search", null, htmlAttributes: new { @class = "Myform-control", id = "txtsearch" })
+            @*</div>
+                <div class="col-md-2">*@
+            <input style="width:auto;" type="submit" value="Search" class="btn  btn-primary" />
+            @*</div>*@
+        </div>
+    </div>
+}
+
+
+
+<div class="row">
+    <div class="col-md-12">
+
+
+        <div class="table-responsive table-responsive-data2">
+            <table class="table table-data2">
+                <thead>
+                    <tr>
+
+                        <th>  Master </th>
+                        <th>Name</th>
+                        <th>Title</th>
+                        <th>Is Active</th>
+                        <th>Dep</th>
+                        <th> Doctor</th>
+                        <th>Year</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr class="tr-shadow" id="row_@item.id">
+
+                            <td>
+                                <span class="block-email">
+                                    @if (item.NameOfMaster != null)
+                                    {
+                                        @Html.ActionLink(item.NameOfMaster, "Edit", new { id = item.id }, new { @class = "text-success" })
+
+                                    }
+                                </span>
+                            </td>
+                            <td>
+
+                                @Html.DisplayFor(modelItem => item.Name)
+
+                            </td>
+
+                            <td class="desc">@Html.DisplayFor(modelItem => item.TitleOfMaster)</td>
+
+                            <td>
+                                <span class="status--process">@Html.DisplayFor(modelItem => item.IsActive)</span>
+                            </td>
+                            <td>@Html.DisplayFor(modelItem => item.Departement_Name.Name)</td>
+                            <td>@Html.DisplayFor(modelItem => item.AllUserData.F_Name) @Html.DisplayFor(modelItem => item.AllUserData.L_Name) </td>
+
+
+                            <td>  @Html.DisplayFor(modelItem => item.YearThisMaster)</td>
+                            <td>
+                                <div class="table-data-feature">
+
+                                    @*<button class="item" data-toggle="tooltip" data-placement="top" title="Edit">
+                                            <i class="zmdi zmdi-edit"></i>
+                                        </button>*@
+
+                                    <button onclick="ConfirmDelete(@item.id)" class="item" data-toggle="tooltip" data-placement="top" title="Delete">
+                                        <i class="zmdi zmdi-delete"></i>
+                                    </button>
+                                    @if (item.PdfFile != null)
+                                    {
+                                        @Html.ActionLink("Pdf", "GetPdf", "JustToSeePDF", new { fileName = item.PdfFile }, new { target = "_blank", @class = "btn btn-info" })
+                                    }
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="spacer"></tr>
+
+                    }
+
+
+
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+
+
+@Html.PagedListPager(Model, Page => Url.Action("index", new
+{ Page, Search = Request.QueryString["Search"] }), new PagedListRenderOptions()
+{
+    Display = PagedListDisplayMode.IfNeeded,
+    DisplayPageCountAndCurrentLocation = true
+})
+
+
+
+
+
+
+<div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+
+            <div class="modal-header">
+
+                <h3 class="modal-title"> Delete   </h3>
+            </div>
+
+            <div class="modal-body">
+                <h4>Are you sure ? You want to delete this. </h4>
+            </div>
+
+            <div class="modal-footer">
+                <a href="#" class="btn btn-default" data-dismiss="modal">Cancel</a>
+                <a href="#" class="btn btn-success" onclick="DeleteEmployee()">Confirm</a>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<input type="hidden" id="hiddenEmployeeId" />
+
+
+<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+<script type="text/javascript">
+
+ function nnn() {
+    var successMessage = '@TempData["sucessMsg"]'
+    if (successMessage != '') {
+        alertify.success(successMessage);
+    }
+    }
+    $(document).ready(function () {
+        nnn();
+        Here();
+    });
+
+         function Here() {
+
+        //   https://jqueryui.com/
+        $("#txtsearch").autocomplete({
+            source: '@Url.Action("GetAllDataMaster", "Home")',
+
+        }); }
+
+
+    function ConfirmDelete(EmployeeId) {
+        if (EmployeeId != null) {
+            $("#hiddenEmployeeId").val(EmployeeId);
+            $("#myModal").modal('show');
+        }
+
+
+    }
+
+    function DeleteEmployee () {
+
+        var empId = $("#hiddenEmployeeId").val();
+        if (empId != null) {
+            $.ajax({
+
+                type: "POST",
+                url: "/AdminFinalMaster/DeleteEmployee",
+                data: { EmployeeId: empId },
+                success: function (result) {
+                    $("#loaderDiv").hide();
+                    $("#myModal").modal("hide");
+                    $("#row_" + empId).remove();
+                    alertify.success("Delete Ok");
+                }
+
+            })
+
+        }
+
+
+    }
+</script>
+
+

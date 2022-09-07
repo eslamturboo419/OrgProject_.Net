@@ -1,0 +1,72 @@
+﻿
+@{
+    ViewBag.Title = "Dash";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<style>
+    .statistic__item .icon {
+        bottom: -38px;
+    }
+        .statistic__item .icon i {
+            font-size: 206px;
+        }
+    .statistic__item .desc {
+        font-size: 15px;
+        color: black;
+        font-weight: bolder;
+    }
+</style>
+
+
+
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6 col-lg-3">
+            <div class="statistic__item">
+                <h2 class="number" style="color:black">@TempData["TotalUser"]</h2>
+                <span class="desc"> @Html.ActionLink("Members", "Index", "AdminManageUsers")   </span>
+                <div class="icon">
+                    <i class="zmdi zmdi-account-o"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+            <div class="statistic__item">
+                <h2 class="number" style="color:black">@TempData["TotalProject"]</h2>
+                
+                <span class="desc">  @Html.ActionLink("Total project", "Index", "AdminFinalProject")    </span>
+          
+     
+                <div class="icon">
+                    <i class="zmdi zmdi-view-web"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+            <div class="statistic__item">
+                <h2 class="number" style="color:black">@TempData["TotalMaster"]</h2>
+                <span class="desc">  @Html.ActionLink("Total Master ", "Index", "AdminFinalMaster")    </span>
+                <div class="icon">
+                    <i class="zmdi zmdi-view-web"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+            <div class="statistic__item">
+                <h2 class="number" style="color:black"> @TempData["TotalComment"] </h2>
+                <span class="desc">  @Html.ActionLink("Total Comment ", "Index", "AdminManageComments") </span>
+                <div class="icon">
+                    <i class="zmdi zmdi-comment"></i>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
